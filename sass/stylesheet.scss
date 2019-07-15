@@ -1,0 +1,38 @@
+/*
+Theme Name: WordCamp Asia 2020
+Author: Team WordCamp Asia 2020
+Author URI: https://wpasia.org
+Version: 1.0
+*/
+
+//== Variables & Mixins
+@import "variables";
+@import "mixins";
+
+//== General
+@import "global";
+@import "typography";
+@import "layout";
+@import "form";
+
+//== Elements
+@import "header";
+@import "navigation";
+@import "content";
+@import "footer";
+
+//== Components
+// @import "animate";
+@import "ticket";
+@import "organizer";
+@import "attendee";
+@import "sponsor";
+@import "speaker";
+@import "session";
+@import "socialmediastreaming";
+
+//== Media Query
+// @import "mq";
+
+//== Misc.
+// @import "misc";

@@ -1,0 +1,38 @@
+/* SPEAKER
+---------------------------------------*/
+
+.wcorg-speaker {
+	h2 {
+		position: relative;
+		color: $color-navy;
+		font-size: 1.25em;
+	}
+}
+
+.wcorg-speaker-description {
+	margin-bottom: 4rem;
+	padding-bottom: 1.5rem;
+	position: relative;
+	&:after {
+		background-color: #eee;
+		content: "";
+		display: block;
+		height: 1px;
+		width: 50%;
+		position: absolute;
+		bottom: 0;
+		left: 25%;
+	}
+	.avatar {
+		// border: 2px solid $color-navy;
+		// border-radius: 15px;
+		display: block;
+		// margin: 0 auto 30px;
+		float: left;
+		margin-right: 1.5rem;
+	}
+}
+
+#speaker-session-names {
+	padding-left: 0;
+}

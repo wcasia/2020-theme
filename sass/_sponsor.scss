@@ -1,0 +1,138 @@
+/* SPONSORS
+---------------------------------------*/
+
+.wcb_widget_sponsors {
+	text-align: center;
+	h2 {
+		font-size: 1.25em;
+		margin-bottom: 2rem;
+	}
+	.sponsor-logo {
+		display: inline-block !important;
+		margin: 0 auto;
+		padding-bottom: 0;
+		img {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.sponsor-level {
+	margin-bottom: 1.5rem;
+	.sponsor-level-title {
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: $color-rose-pink;
+		font-size: 1.25em;
+		margin-bottom: 1.5rem;
+		&:before, &:after {
+			content: '';
+			border-top: 1px dotted $color-cream;
+			margin: 0 1.5rem 0 0;
+			flex: 1 0 1.5rem;
+		}
+		&:after {
+			margin: 0 0 0 1.5rem;
+		}
+	}
+	&.venue {
+		img {
+			max-height: 220px !important;
+		}
+	}
+	&.gold {
+		img {
+			max-height: 200px !important;
+		}
+	}
+	&.silver {
+		img {
+			max-height: 170px !important;
+		}
+	}
+	&.bronze {
+		img {
+			max-height: 130px !important;
+		}
+	}
+	&.in-kind {
+		img {
+			max-height: 100px !important;
+		}
+	}
+}
+
+.wcorg-sponsor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 1.5rem;
+	padding: 1.5rem;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+	h3 {
+		display: none;
+	}
+	img {
+		margin: 0 auto;
+	}
+	.wp-block-image {
+		display: none;
+	}
+}
+
+.wcorg-sponsor-description {
+	img {
+		max-width: 100%;
+		margin-bottom: 1.5rem;
+	}
+}
+
+.wcorg-sponsor-level-venue img {
+	max-height: 220px !important;
+}
+.wcorg-sponsor-level-gold img {
+	max-height: 200px !important;
+}
+.wcorg-sponsor-level-silver img {
+	max-height: 170px !important;
+}
+.wcorg-sponsor-level-bronze img {
+	max-height: 130px !important;
+}
+.wcorg-sponsor-level-in-kind img {
+	max-height: 100px !important;
+}
+
+.wcorg-sponsor-level-venue, .wcorg-sponsor-level-gold, .wcorg-sponsor-level-silver, .wcorg-sponsor-level-bronze, .wcorg-sponsor-level-in-kind {
+	h2 {
+		display: flex;
+		width: calc(100% + 3rem);
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: $color-rose-pink;
+		font-size: 1.563em;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+		margin-top: 2.5rem;
+		margin-bottom: 1.5rem;
+		&:before, &:after {
+			content: '';
+			border-top: 1px dotted $color-cream;
+			margin: 0 1.5rem 0 0;
+			flex: 1 0 1.5rem;
+		}
+		&:after {
+			margin: 0 0 0 1.5rem;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.wcorg-sponsor {
+		padding: 2.5rem;
+	}
+}

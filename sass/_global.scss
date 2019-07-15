@@ -1,0 +1,78 @@
+/* GLOBAL
+---------------------------------------*/
+
+.site {
+    overflow: hidden;
+    position: relative;
+}
+
+::-moz-selection {
+	color: $color-white;
+	background-color: $color-rose-pink;
+}
+
+::selection {
+	color: $color-white;
+	background-color: $color-rose-pink;
+}
+
+hr {
+	clear: both;
+	margin: 2rem 0;
+	padding: 0;
+	border: 0;
+	height: 1px;
+}
+
+@media (min-width:48em) {
+	hr {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+	}
+}
+
+@media (min-width:62em) {
+	hr {
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+}
+
+figure, img {
+	display: block;
+	margin: 0;
+	margin-bottom: 1.5rem;
+	max-width: 100%;
+	height: auto;
+}
+
+figcaption {
+	margin-top: .5rem;
+	margin-bottom: 0;
+	color: rgba(0,0,0,.6);
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	margin-bottom: 1.5rem;
+}
+
+caption {
+	margin-bottom: .5rem;
+}
+
+td, th {
+	padding: .5rem 1rem;
+	border-top: 1px solid rgba(0,0,0,.1);
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+@media (min-width:48em) {
+	td, th {
+		padding: 1rem;
+	}
+}

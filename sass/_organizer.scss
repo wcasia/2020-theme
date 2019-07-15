@@ -1,0 +1,35 @@
+/* ORGANIZER
+---------------------------------------*/
+
+h3.org-group {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: $color-red;
+	font-size: 1.563em;
+	margin-bottom: 2.5rem;
+	&:before, &:after {
+		content: '';
+		border-top: 1px dotted $color-rose-pink;
+		margin: 0 1.5rem 0 0;
+		flex: 1 0 1.5rem;
+	}
+	&:after {
+		margin: 0 0 0 1.5rem;
+	}
+}
+.wcorg-organizer {
+	h2 {
+		color: $color-navy;
+		font-size: 1.25em;
+	}
+}
+
+.wcorg-organizer-description {
+	.avatar {
+		float: left;
+		margin: 0 20px 20px 0;
+	}
+}

@@ -1,0 +1,30 @@
+/* SOCIAL MEDIA STREAMING
+---------------------------------------*/
+
+.tggr-media-item {
+	border: none;
+	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+	border-radius: 2px;
+}
+
+.tggr-item-content {
+	p {
+		font-size: 1rem;
+		line-height: 1.4;
+	}
+}
+
+.tggr-author-profile {
+	margin-bottom: 15px;
+	.tggr-author-name {
+		font-size: 1em;
+		color: #3e4464;
+	}
+	.tggr-author-username {
+		font-size: .9375em;
+	}
+}
+
+.tggr-timestamp {
+	font-size: .875rem;
+}

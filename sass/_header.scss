@@ -1,0 +1,151 @@
+/* HEADER
+---------------------------------------*/
+
+.site-header {
+	.custom-header {
+		position: relative;
+		clear: both;
+		background: url('https://2019.bangkok.wordcamp.org/files/2018/11/illustration-bg-5.png') center center no-repeat transparent;
+		background-size: cover;
+		.site-branding {
+			padding-top: 1.5em;
+			padding-bottom: 1.5em;
+		}
+		.site-title {
+			margin: 0 auto;
+			width: 40%;
+			max-width: 300px;
+			a {
+				display: block;
+				background: url('https://2019.bangkok.wordcamp.org/files/2018/11/wc2019-logo-trans@2x.png') top center no-repeat transparent;
+				background-size: cover;
+				padding-top: 74.758842%;
+				width: 100%;
+				height: 0;
+				text-indent: -9999px;
+			}
+		}
+		.site-description {
+			// background: linear-gradient(180deg,#d43e38 0%,#ea8c70 100%);
+			// -webkit-background-clip: text;
+			// -webkit-text-fill-color: transparent;
+			// color: transparent;
+			color: $color-rose-pink;
+			font-family: $font-secondary;
+			font-size: 0.8em;
+			line-height: 1.3;
+			font-weight: 500;
+			text-align: center;
+			padding-top: .5em;
+			margin: 0;
+			&:after {
+				content: "#WCBKK";
+				display: block;
+				font-weight: 400;
+			}
+		}
+	}
+}
+
+.home .site-header {
+	.custom-header {
+		background: url('https://2019.bangkok.wordcamp.org/files/2018/11/illustration-bg-4.png') center bottom no-repeat transparent;
+		background-size: cover;
+		.site-branding {
+			padding-top: 2.5em;
+			padding-bottom: 6.5em;
+		}
+		.site-title {
+			width: 60%;
+		}
+		.site-description {
+			padding-left: 20%;
+			padding-right: 20%;
+			font-size: 1em;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.site-header {
+		.custom-header {
+			.site-description {
+				font-size: 1em;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.home .site-header {
+		.custom-header {
+			.site-branding {
+				padding-top: 5em;
+				padding-bottom: 12em;
+			}
+			.site-title {
+				max-width: 450px;
+			}
+			.site-description {
+				font-size: 1.1em;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.home .site-header {
+		.custom-header {
+			.site-branding {
+				padding-top: 6em;
+				padding-bottom: 15em;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	.home .site-header {
+		.custom-header {
+			.site-branding {
+				padding-top: 8em;
+				padding-bottom: 18em;
+			}
+			.site-title {
+				max-width: 600px;
+			}
+		}
+	}
+}
+
+
+.cta-button {
+	border: 1px solid $color-red;
+	display: table;
+	margin: 30px auto;
+	width: 700px;
+	p, a {
+		display: table-cell;
+		margin: 0;
+		padding: 10px 20px;
+		font-size: 1.2em;
+		vertical-align: middle;
+	}
+	a {
+		background-color: $color-red;
+		color: #FFF !important;
+		font-size: 1.6em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.cta-button {
+		text-align: center;
+		width: 80%;
+		p, a {
+			display: block;
+		}
+	}
+}

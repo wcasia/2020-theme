@@ -1,0 +1,71 @@
+/* FORM
+---------------------------------------*/
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: $color-red;
+	background-image: none;
+	box-sizing: border-box;
+	box-shadow: none;
+	border: none;
+	border-radius: 0;
+	color: #fff;
+	font-family: $font-secondary;
+	@include font-weight(semi-bold);
+	font-size: 1rem;
+	padding: 1rem 2rem;
+	text-transform: uppercase;
+	text-shadow: none;
+	transition: background-color .3s;
+	&:hover, &:focus {
+		background-color: $color-rose-pink;
+		background-image: none;
+		border: none;
+		outline: none;
+	}
+}
+
+input:not([type]), input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea {
+	display: block;
+	width: 100%;
+	padding: .25rem .5rem;
+	margin: 0;
+	border: 1px solid #ccc;
+	border-radius: 0;
+	box-sizing: border-box;
+	background-color: $color-white;
+	color: $color-navy;
+	font-family: $font-secondary;
+	font-size: 1em;
+	@include font-weight(regular);
+	box-shadow: inset 0 0.125rem 0 0 #f7f7fc;
+	-webkit-appearance: none;
+	&:focus {
+		color: $color-navy;
+		outline: none;
+		box-shadow: 0 0 0 0.125em $color-rose-pink;
+	}
+}
+
+select {
+	border: 1px solid $color-rose-pink;
+	border-radius: 2px;
+	color: $color-rose-pink;
+	cursor: pointer;
+	font-family: $font-secondary;
+	font-size: 1em;
+	@include font-weight(regular);
+	height: 40px;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+	&:focus {
+		color: $color-rose-pink;
+		outline: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.contact-form input[type=email], .contact-form input[type=text], .contact-form input[type=url], .contact-form textarea {
+		width: 80%;
+	}
+}

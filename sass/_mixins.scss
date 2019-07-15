@@ -1,0 +1,48 @@
+/* MIXINS
+---------------------------------------*/
+
+@mixin font-size ($size) {
+	font-size: $size + px;
+	font-size: ($size / 10) + rem;
+}
+
+@mixin font-weight ($weight) {
+	font-weight: map-get($font-weight, $weight);
+}
+
+@mixin replace-text-with-img($img, $position, $w, $h) {
+	background-image: url($img);
+	background-position: $position;
+	background-repeat: no-repeat;
+	background-size: $w $h;
+	display: block;
+	@include wh($w, $h);
+	text-indent: -9999px;
+}
+
+@mixin logo($logo, $w, $h) {
+	@include replace-text-with-img($logo, center center, $w, $h);
+	background-size: $w $h;
+	> a {
+		display: block;
+		@include wh($w, $h);
+	}
+}
+
+@mixin wh($w,$h) {
+	height: $h;
+	width: $w;
+}
+
+@mixin circle($w) {
+	height: $w;
+	width: $w;
+	border-radius: 50%;
+}
+
+%grid-content {
+	width: 60%;
+	max-width: 640px;
+	height: auto;
+	margin: 0 auto;
+}

@@ -1,0 +1,259 @@
+/* SIDEBAR WIDGET
+---------------------------------------*/
+
+#secondary-sidebar .widget {
+	position: relative;
+	background-color: #f8f8f8;
+	margin: 0;
+	padding: 2.5rem 0 1.5rem 0;
+	&:before {
+		background-color: #f2f2f2;
+	}
+	.widget-title {
+		font-size: 1.25em;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+}
+
+#secondary-sidebar .widget:before {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: -1000px;
+	right: -1000px;
+	background-color: inherit;
+	content: "";
+}
+
+
+/* SOCIAL WIDGET (TEXT WIDGET)
+---------------------------------------*/
+
+.list-social {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.list-social:after,.list-social:before {
+	content: "";
+	display: table;
+}
+
+.list-social:after {
+	clear: both;
+}
+
+.list-social li {
+	font-size: 1em;
+	line-height: 1.25em;
+	display: block;
+	margin-top: 0;
+	text-align: center;
+}
+
+@media (min-width:24em) {
+	.list-social li {
+		width: 46%;
+		display: inline-block;
+	}
+}
+
+@media (min-width:37.5em) {
+	.list-social li {
+		width: 30%;
+		min-width: 12.5rem;
+	}
+}
+
+.list-social strong {
+	display: block;
+	color: inherit;
+}
+
+.list-social a {
+	position: relative;
+	display: block;
+	padding: 1rem;
+	padding-top: 4.25rem;
+	color: $color-navy;
+	border-radius: 0;
+	text-decoration: none;
+}
+
+.list-social a:empty {
+	display: none;
+}
+
+.list-social a:after,.list-social a:before {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	content: "";
+}
+
+.list-social a:after {
+	font-family: FontAwesome;
+	font-size: 2rem;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 3rem;
+	height: 3rem;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 36px;
+}
+
+.list-social a:active,.list-social a:focus,.list-social a:hover {
+	text-decoration: none;
+	color: $color-rose-pink;
+	background: $color-white;
+}
+
+.list-social .social-twitter a:after {
+	content: "\f099";
+}
+
+.list-social .social-facebook a:after {
+	content: "\f09a";
+}
+
+.list-social .social-instagram a:after {
+	content: "\f16d";
+}
+
+
+/* SITE FOOTER
+---------------------------------------*/
+
+.site-footer {
+	background-color: $color-rose-pink;
+	clear: both;
+	.site-info {
+		padding: 1em 0;
+		text-align: center;
+		a {
+			color: $color-white;
+			display: inline-block;
+			font-size: 0.8125em;
+			@include font-weight(light);
+			margin: 0 10px;
+			&.site-info-network:before {
+				content: "\f19a";
+				font-family: FontAwesome;
+				display: inline-block;
+				padding-right: 16px;
+			}
+		}
+	}
+}
+
+#footer-widgets {
+	display: flex;
+	flex-direction: column;
+}
+.footer-widgets-block {
+	width: 100%;
+	p {
+		color: #f7f8f4;
+		font-size: 1em;
+		@include font-weight(light);
+	}
+}
+
+@media screen and (min-width: 768px) {
+	#footer-widgets {
+		flex-direction: row;
+	}
+	#footer-widget-1 {
+		width: 60%;
+		padding-right: 1.5rem;
+	}
+	#footer-widget-2 {
+		width: 40%;
+		padding-left: 1.5rem;
+	}
+}
+
+/* JETPACK SUBSCRIPTION WIDGET
+---------------------------------------*/
+
+.jetpack_subscription_widget {
+	h2.widget-title {
+		font-size: 1.25em;
+		color: $color-white;
+		margin-bottom: 1.5rem;
+	}
+	#subscribe-text p {
+		font-size: .9375em;
+		line-height: 1.4;
+	}
+	#subscribe-email {
+		display: inline;
+		input[type=email] {
+			float: left;
+			background-color: transparent;
+			border: 1px solid $color-white;
+			color: $color-white;
+			width: 60%;
+			height: 40px;
+			box-shadow: none;
+			&::placeholder {
+				color: rgba(255,255,255,.8);
+			}
+		}
+	}
+	#subscribe-submit {
+		display: inline;
+		input[type="submit"] {
+			font-family: $font-secondary;
+			@include font-weight(semi-bold);
+			width: 40%;
+			height: 40px;
+			padding: 0;
+			border: 1px solid $color-white;
+			background-color: $color-white;
+			color: $color-rose-pink;
+		}
+	}
+}
+
+
+/* MILESTONE WIDGET
+---------------------------------------*/
+
+.milestone-widget {
+	.milestone-content {
+		box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+	}
+	.milestone-header {
+		background-color: $color-navy;
+		strong.event {
+			font-size: 1em;
+			@include font-weight(semi-bold);
+			color: #fff;
+		}
+		span.date {
+			font-size: .8125em;
+			color: #f9cf9f;
+		}
+	}
+	.milestone-countdown {
+		border: none;
+		padding: 1em;
+		.difference {
+			color: transparent;
+			background: linear-gradient(180deg,#d43e38 0%,#ea8c70 100%);
+			-webkit-background-clip: text;
+			font-size: 4.768em;
+			font-family: $font-primary;
+			line-height: 1;
+		}
+		.label {
+			color: $color-rose-pink;
+		}
+	}
+}
