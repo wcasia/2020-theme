@@ -111,6 +111,13 @@
 
 }
 
+.entry-content a,
+.entry-content a:visited,
+.page-content a,
+.page-content a:visited {
+	border-bottom: 1px solid $color-blue;
+}
+
 .hentry {
 	margin-bottom: 2.5rem;
 	padding-bottom: 2.5rem;

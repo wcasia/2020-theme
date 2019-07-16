@@ -79,7 +79,7 @@
 	display: block;
 	padding: 1rem;
 	padding-top: 4.25rem;
-	color: $color-navy;
+	color: $color-blue;
 	border-radius: 0;
 	text-decoration: none;
 }
@@ -109,7 +109,7 @@
 
 .list-social a:active,.list-social a:focus,.list-social a:hover {
 	text-decoration: none;
-	color: $color-rose-pink;
+	color: $color-blue;
 	background: $color-white;
 }
 
@@ -130,7 +130,7 @@
 ---------------------------------------*/
 
 .site-footer {
-	background-color: $color-rose-pink;
+	background-color: $color-blue;
 	clear: both;
 	.site-info {
 		padding: 1em 0;
@@ -208,15 +208,16 @@
 	}
 	#subscribe-submit {
 		display: inline;
-		input[type="submit"] {
+		button {
 			font-family: $font-secondary;
-			@include font-weight(semi-bold);
+			@include font-weight(bold);
+			line-height: 1;
 			width: 40%;
 			height: 40px;
 			padding: 0;
 			border: 1px solid $color-white;
 			background-color: $color-white;
-			color: $color-rose-pink;
+			color: $color-blue;
 		}
 	}
 }
@@ -230,30 +231,34 @@
 		box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 	}
 	.milestone-header {
-		background-color: $color-navy;
+		background: none;
+		border-width: 6px;
+		border-color: white;
+		border-style: solid;
+		border-bottom: none;
+
 		strong.event {
+			font-family: $font-primary;
 			font-size: 1em;
-			@include font-weight(semi-bold);
+			@include font-weight(bold);
 			color: #fff;
 		}
 		span.date {
 			font-size: .8125em;
-			color: #f9cf9f;
+			color: #fff;
 		}
 	}
 	.milestone-countdown {
 		border: none;
 		padding: 1em;
 		.difference {
-			color: transparent;
-			background: linear-gradient(180deg,#d43e38 0%,#ea8c70 100%);
-			-webkit-background-clip: text;
+			color: $color-blue;
 			font-size: 4.768em;
 			font-family: $font-primary;
 			line-height: 1;
 		}
 		.label {
-			color: $color-rose-pink;
+			color: $color-blue;
 		}
 	}
 }
