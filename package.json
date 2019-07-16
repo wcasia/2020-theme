@@ -1,0 +1,34 @@
+{
+  "name": "wcasia-theme-2020",
+  "title": "WordCamp Asia 2020 theme",
+  "description": "WordCamp Asia 2020 theme",
+  "version": "0.1.0",
+  "homepage": "https://2020.asia.wordcamp.org",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "WordCamp Asia",
+    "email": "asia@wordcamp.org",
+    "url": "https://wpasia.org"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.0.0",
+    "glob": "~5.0.15",
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^1.5.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.6.0",
+    "grunt-sass": "^1.0.0",
+    "load-grunt-config": "^2.0.0",
+    "load-grunt-tasks": "^3.3.0"
+  },
+  "keywords": []
+}

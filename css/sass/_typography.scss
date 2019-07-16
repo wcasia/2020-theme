@@ -17,7 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-primary;
-	@include font-weight(regular);
+	@include font-weight(bold);
 	margin-top: 2rem;
 	margin-bottom: .5rem;
 	line-height: 1.25em;
@@ -125,9 +125,6 @@ blockquote p {
 	font-size: 1em;
 	line-height: 1.4;
 	color: $color-blue;
-	background: -webkit-linear-gradient($color-navy, $color-blue);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	em {
 		font-style: normal;
 	}
