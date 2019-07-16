@@ -11,7 +11,8 @@ Version: 0.1.0
 /* GLOBAL
 ---------------------------------------*/
 body {
-  background: #FEFDFC; }
+  background: #FEFDFC;
+  margin: 0; }
 
 .site {
   overflow: hidden;
