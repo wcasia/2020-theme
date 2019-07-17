@@ -2,7 +2,6 @@
 
 Setup guide for the WordCamp Asia 2020 theme.
 
---
 
 ##  Setup on wordcamp.org (https://2020.asia.wordcamp.org)
 
@@ -25,12 +24,12 @@ Setup guide for the WordCamp Asia 2020 theme.
 * This year we use font "Chonburi" and "Bai Jamjuree" on Google web fonts. @import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:300,400,500,600,700|Chonburi&amp;subset=thai');
 * If you want to use FontAwesome. Enter CDN URL (https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 
---
 
 ## Installation ##
 
 - Install dependencies `npm install`
 - Compile SASS files `grunt css`
+- [Setup you local WordCamp.org sandbox](https://make.wordpress.org/community/handbook/wordcamp-organizer/first-steps/web-presence/contributing-to-wordcamp-org/setting-up-a-local-wordcamp-org-sandbox/) for full site theme development
 
 
 
