@@ -429,8 +429,19 @@ select {
 
 /* WIDGETS
 ---------------------------------------*/
-#header-widgets .widget {
-  text-align: center; }
+#header-widgets {
+  padding-bottom: 5em; }
+  @media screen and (min-width: 1024px) {
+    #header-widgets {
+      padding-bottom: 7em; } }
+  @media screen and (min-width: 1600px) {
+    #header-widgets {
+      padding-bottom: 10em; } }
+  @media screen and (min-width: 1920px) {
+    #header-widgets {
+      padding-bottom: 14em; } }
+  #header-widgets .widget {
+    text-align: center; }
 
 /* NAVIGATION
 ---------------------------------------*/
