@@ -15,6 +15,7 @@
 			}
 		}
 		.site-description {
+			display: none; // Used as browser title description.
 			color: $color-blue;
 			font-family: $font-secondary;
 			font-size: .8em;
@@ -22,11 +23,6 @@
 			font-weight: 500;
 			padding-top: .5em;
 			margin: 0;
-			&:after {
-				content: "- #WCAsia";
-				display: inline-block;
-				font-weight: 400;
-			}
 		}
 	}
 }
@@ -123,5 +119,13 @@
 		p, a {
 			display: block;
 		}
+	}
+}
+
+/* WIDGETS
+---------------------------------------*/
+#header-widgets {
+	.widget {
+		text-align: center;
 	}
 }

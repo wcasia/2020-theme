@@ -363,6 +363,7 @@ select {
     color: #0D5ABC; }
 
 .site-header .custom-header .site-description {
+  display: none;
   color: #0D5ABC;
   font-family: "Roboto Slab", serif;
   font-size: .8em;
@@ -370,10 +371,6 @@ select {
   font-weight: 500;
   padding-top: .5em;
   margin: 0; }
-  .site-header .custom-header .site-description:after {
-    content: "- #WCAsia";
-    display: inline-block;
-    font-weight: 400; }
 
 .home .site-header .custom-header .site-branding {
   padding-top: 2.5em;
@@ -432,6 +429,11 @@ select {
     width: 80%; }
     .cta-button p, .cta-button a {
       display: block; } }
+
+/* WIDGETS
+---------------------------------------*/
+#header-widgets .widget {
+  text-align: center; }
 
 /* NAVIGATION
 ---------------------------------------*/
