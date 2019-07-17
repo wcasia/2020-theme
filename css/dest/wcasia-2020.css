@@ -374,7 +374,7 @@ select {
 
 .home .site-header .custom-header .site-branding {
   padding-top: 2.5em;
-  padding-bottom: 5em; }
+  padding-bottom: 0; }
 
 .home .site-header .custom-header .site-title {
   font-size: 3.815em;
@@ -390,20 +390,17 @@ select {
 
 @media screen and (min-width: 1024px) {
   .home .site-header .custom-header .site-branding {
-    padding-top: 5em;
-    padding-bottom: 7em; }
+    padding-top: 5em; }
   .home .site-header .custom-header .site-description {
     font-size: 1.1em; } }
 
 @media screen and (min-width: 1600px) {
   .home .site-header .custom-header .site-branding {
-    padding-top: 6em;
-    padding-bottom: 10em; } }
+    padding-top: 6em; } }
 
 @media screen and (min-width: 1920px) {
   .home .site-header .custom-header .site-branding {
-    padding-top: 8em;
-    padding-bottom: 14em; } }
+    padding-top: 8em; } }
 
 .cta-button {
   border: 1px solid #0D5ABC;
