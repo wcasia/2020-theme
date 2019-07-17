@@ -27,9 +27,10 @@ Setup guide for the WordCamp Asia 2020 theme.
 
 --
 
-## Start your style ##
+## Installation ##
 
-Make your style and paste at Additional CSS. **_Appearance -> Customize -> Additional CSS_**
+- Install dependencies `npm install`
+- Compile SASS files `grunt css`
 
 
 
