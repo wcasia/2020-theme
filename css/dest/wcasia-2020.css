@@ -382,6 +382,14 @@ select:focus {
   font-size: 3.815em;
   color: #fff; }
 
+.page .site-header .custom-header p.site-title {
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: .5rem;
+  line-height: 1.25em;
+}
+
 .home .site-header .custom-header .site-description ,
 .page .site-header .custom-header .site-description {
   text-align: center;
