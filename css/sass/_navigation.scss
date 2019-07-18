@@ -165,7 +165,7 @@
 		}
 	}
 	.current-menu-ancestor > a {
-		background: $color-rose-pink;
+		color: $color-red;
 	}
 	.menu-item {
 		a {
@@ -180,7 +180,7 @@
 		a:after {
 			content: "\f107";
 			margin-left: .5em;
-			color: $color-white;
+			color: $color-red;
 			display: inline-block;
 			font-family: FontAwesome;
 			font-size: 1rem;
