@@ -112,10 +112,10 @@
 }
 
 .entry-content a,
-.entry-content a:visited,
-.page-content a,
-.page-content a:visited {
-	border-bottom: 1px solid $color-blue;
+.page-content a {
+	&:hover {
+		border-bottom: 1px solid $color-red;
+	}
 }
 
 .hentry {

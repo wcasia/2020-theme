@@ -127,7 +127,7 @@ a, a:link, a:visited {
   word-break: break-word; }
 
 a:active, a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #E63331; }
 
 a:focus {
@@ -690,11 +690,9 @@ select {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
 
-.entry-content a,
-.entry-content a:visited,
-.page-content a,
-.page-content a:visited {
-  border-bottom: 1px solid #0D5ABC; }
+.entry-content a:hover,
+.page-content a:hover {
+  border-bottom: 1px solid #E63331; }
 
 .hentry {
   margin-bottom: 2.5rem;
