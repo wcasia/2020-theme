@@ -38,7 +38,7 @@
 		vertical-align: middle;
 	}
 	&:hover, &:active, &:focus {
-		background-color: $color-navy;
+		background-color: $color-white;
 	}
 }
 
@@ -53,7 +53,8 @@
 }
 
 .menu {
-	background: $color-navy;
+	background: $color-white;
+
 	&:before, &:after {
 		content: " ";
 		display: table;
@@ -72,10 +73,13 @@
 	font-size: 1.125em;
 	a {
 		font-weight: 400;
-		color: $color-white;
+		color: $color-grey;
 		padding: .75rem 2rem;
+		font-family: $font-primary;
+
 		&.focus, &:active, &:focus, &:hover {
-			background: $color-rose-pink;
+			background: $color-white;
+			color: $color-red;
 		}
 	}
 	& > a {
@@ -92,7 +96,7 @@
 }
 
 .current-menu-item > a {
-	background: $color-rose-pink;
+	color: $color-red;
 }
 
 .menu-item-has-children .dropdown-toggle {
@@ -188,7 +192,7 @@
 			top: 100%;
 			left: 0;
 			min-width: 16.25rem;
-			background: $color-navy;
+			background: $color-white;
 			padding: 0;
 			li a {
 				font-size: 1rem;

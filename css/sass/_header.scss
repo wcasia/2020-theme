@@ -11,7 +11,13 @@
 			text-align: center;
 
 			a {
-				color: $color-blue;
+				color: $color-red;
+			}
+			.page &, .single & {
+				font-family: $font-primary;
+				font-weight: 700;
+				margin-bottom: .5rem;
+				line-height: 1.25em;
 			}
 		}
 		.site-description {
@@ -27,14 +33,14 @@
 	}
 }
 
-.home .site-header {
+.site-header {
 	.custom-header {
 		.site-branding {
 			padding-top: 2.5em;
 			padding-bottom: 0;
 		}
 		.site-title {
-			font-size: 3.815em;
+			font-size: 3.215em;
 			color: #fff;
 		}
 		.site-description {
@@ -119,21 +125,21 @@
 	}
 }
 
-/* WIDGETS
+/* HEADER WIDGETS
 ---------------------------------------*/
 #header-widgets {
 	padding-bottom: 5em;
 
 	@media screen and (min-width: 1024px) {
-		padding-bottom: 7em;
+		padding-bottom: 5em;
 	}
 
 	@media screen and (min-width: 1600px) {
-		padding-bottom: 10em;
+		padding-bottom: 5em;
 	}
 
 	@media screen and (min-width: 1920px) {
-		padding-bottom: 14em;
+		padding-bottom: 5em;
 	}
 
 	.widget {
