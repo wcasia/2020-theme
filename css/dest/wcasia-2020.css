@@ -588,7 +588,7 @@ select {
     .page-navigation-container ul ul.sub-menu {
       display: none; }
   .current-menu-ancestor > a {
-    background: #0D5ABC; }
+    color: #E63331; }
   .menu-item a {
     font-size: 1.125rem;
     padding: .75rem 1rem; }
@@ -598,7 +598,7 @@ select {
   .menu-item-has-children a:after {
     content: "\f107";
     margin-left: .5em;
-    color: #fff;
+    color: #E63331;
     display: inline-block;
     font-family: FontAwesome;
     font-size: 1rem;
