@@ -381,9 +381,12 @@ select {
   padding-top: 2.5em;
   padding-bottom: 0; }
 
-.site-header .custom-header .site-title {
-  font-size: 3.215em;
-  color: #fff; }
+.home .site-header .custom-header .site-title {
+  font-size: 3.215em; }
+
+.page .site-header .custom-header .site-title,
+.single .site-header .custom-header .site-title {
+  font-size: 2.215em; }
 
 .site-header .custom-header .site-description {
   text-align: center;
@@ -394,17 +397,17 @@ select {
     font-size: 1em; } }
 
 @media screen and (min-width: 1024px) {
-  .home .site-header .custom-header .site-branding {
+  .site-header .custom-header .site-branding {
     padding-top: 5em; }
-  .home .site-header .custom-header .site-description {
+  .site-header .custom-header .site-description {
     font-size: 1.1em; } }
 
 @media screen and (min-width: 1600px) {
-  .home .site-header .custom-header .site-branding {
+  .site-header .custom-header .site-branding {
     padding-top: 6em; } }
 
 @media screen and (min-width: 1920px) {
-  .home .site-header .custom-header .site-branding {
+  .site-header .custom-header .site-branding {
     padding-top: 8em; } }
 
 .cta-button {
@@ -625,7 +628,7 @@ select {
   text-align: center; }
 
 .entry-title {
-  color: #0D5ABC;
+  color: #E63331;
   margin-bottom: 1rem;
   font-size: 1.953em; }
 
@@ -638,15 +641,9 @@ select {
 .entry-meta {
   font-size: 0.875em;
   color: #0D5ABC; }
-  .entry-meta a > time {
-    color: #0D5ABC; }
-  .entry-meta .byline a {
-    color: #0D5ABC; }
 
 .entry-content {
   margin: 1.5rem 0; }
-  .entry-content a, .entry-content a:visited {
-    color: #0D5ABC; }
   .entry-content h2 {
     font-size: 1.953em; }
   .entry-content h3 {

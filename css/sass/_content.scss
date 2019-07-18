@@ -6,7 +6,7 @@
 }
 
 .entry-title {
-	color: $color-rose-pink;
+	color: $color-red;
 	margin-bottom: 1rem;
 	font-size: 1.953em;
 }
@@ -23,20 +23,15 @@
 .entry-meta {
 	font-size: 0.875em;
 	color: $color-blue;
-	a > time {
-		color: $color-blue;
-	}
-	.byline a {
-		color: $color-rose-pink;
-	}
+	a > time {}
+
+	.byline a {}
 }
 
 .entry-content {
 	margin: 1.5rem 0;
 
-	a, a:visited {
-		color: $color-rose-pink;
-	}
+	a, a:visited {}
 
 	h2 {
 		font-size: 1.953em;
