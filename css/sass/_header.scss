@@ -39,9 +39,12 @@
 			padding-top: 2.5em;
 			padding-bottom: 0;
 		}
-		.site-title {
+		.home & .site-title {
 			font-size: 3.215em;
-			color: #fff;
+		}
+		.page & .site-title,
+		.single & .site-title {
+			font-size: 2.215em;
 		}
 		.site-description {
 			text-align: center;
@@ -61,7 +64,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-	.home .site-header {
+	.site-header {
 		.custom-header {
 			.site-branding {
 				padding-top: 5em;
@@ -74,7 +77,7 @@
 }
 
 @media screen and (min-width: 1600px) {
-	.home .site-header {
+	.site-header {
 		.custom-header {
 			.site-branding {
 				padding-top: 6em;
@@ -84,7 +87,7 @@
 }
 
 @media screen and (min-width: 1920px) {
-	.home .site-header {
+	.site-header {
 		.custom-header {
 			.site-branding {
 				padding-top: 8em;
