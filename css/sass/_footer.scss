@@ -79,7 +79,7 @@
 	display: block;
 	padding: 1rem;
 	padding-top: 4.25rem;
-	color: $color-blue;
+	color: $color-grey;
 	border-radius: 0;
 	text-decoration: none;
 }
@@ -130,7 +130,7 @@
 ---------------------------------------*/
 
 .site-footer {
-	background-color: $color-blue;
+	background-color: $color-red;
 	clear: both;
 	.site-info {
 		padding: 1em 0;
@@ -217,7 +217,7 @@
 			padding: 0;
 			border: 1px solid $color-white;
 			background-color: $color-white;
-			color: $color-blue;
+			color: $color-red;
 		}
 	}
 }
@@ -252,13 +252,13 @@
 		border: none;
 		padding: 1em;
 		.difference {
-			color: $color-blue;
+			color: $color-red;
 			font-size: 4.768em;
 			font-family: $font-primary;
 			line-height: 1;
 		}
 		.label {
-			color: $color-blue;
+			color: $color-red;
 		}
 	}
 }
