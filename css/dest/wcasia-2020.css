@@ -629,6 +629,9 @@ select {
 ---------------------------------------*/
 .entry-header {
   text-align: center; }
+  .entry-header .entry-image {
+    margin-left: -10rem;
+    margin-right: -10rem; }
 
 .entry-title {
   color: #E63331;
