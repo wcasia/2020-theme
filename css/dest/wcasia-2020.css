@@ -1046,9 +1046,12 @@ article.comment-body {
 .footer-widgets-block {
   width: 100%; }
   .footer-widgets-block p {
-    color: #f7f8f4;
+    color: #fff;
     font-size: 1em;
     font-weight: 300; }
+    .footer-widgets-block p a {
+      color: #F5F1E8;
+      border-bottom: 1px solid #F5F1E8; }
 
 @media screen and (min-width: 768px) {
   #footer-widgets {

@@ -158,9 +158,14 @@
 .footer-widgets-block {
 	width: 100%;
 	p {
-		color: #f7f8f4;
+		color: $color-white;
 		font-size: 1em;
 		@include font-weight(light);
+
+		a {
+			color: $color-cream;
+			border-bottom: 1px solid $color-cream;
+		}
 	}
 }
 
