@@ -644,7 +644,7 @@ select {
 
 .entry-meta {
   font-size: 0.875em; }
-  .home .entry-meta {
+  .home .entry-meta .byline {
     display: inline; }
 
 .entry-content {

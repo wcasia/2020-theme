@@ -34,7 +34,7 @@
 
 	.byline a {}
 
-	.home & {
+	.home & .byline {
 		display: inline;
 	}
 }
