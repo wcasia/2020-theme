@@ -9,8 +9,8 @@
 }
 
 .menu-toggle {
-	background-color: $color-navy;
-	color: $color-white;
+	background-color: $color-white;
+	color: $color-grey;
 	display: block;
 	width: 100%;
 	height: 44px;
@@ -20,9 +20,12 @@
 	text-align: center;
 	z-index: 1000;
 	transition: all .3s;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+
 	&:before {
 		content: "\f0c9";
-		color: $color-white;
+		color: $color-grey;
 		display: inline-block;
 		font-family: FontAwesome;
 		font-size: 1rem;
@@ -83,7 +86,7 @@
 		}
 	}
 	& > a {
-		border-top: 1px dotted $color-blue;
+		border-top: 1px dotted $color-grey;
 	}
 	&.call-to-action {
 		order: -1;
@@ -118,7 +121,6 @@
 }
 
 .sub-menu {
-	background: linear-gradient(180deg, $color-navy 0%, $color-blue 100%);
 	padding-bottom: 1rem;
 	a {
 		font-size: .75em;
@@ -132,7 +134,7 @@
 			color: $color-rose-pink;
 			transform: rotate(45deg);
 			color: $color-white;
-			content: "\f0c8";
+			// content: "\f0c8";
 		}
 	}
 	.current-menu-item a:before {
