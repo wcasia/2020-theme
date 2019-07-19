@@ -359,15 +359,6 @@ select {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
     text-align: center; }
-    .site-header .custom-header .site-branding:before {
-      content: "";
-      width: 82px;
-      height: 82px;
-      color: black;
-      background-image: url(https://2020.asia.wordcamp.org/files/2019/07/logo-wcasia-teaser@2x.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      display: inline-block; }
   .site-header .custom-header .site-title {
     text-align: center; }
     .site-header .custom-header .site-title a {
