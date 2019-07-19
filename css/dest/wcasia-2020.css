@@ -1080,6 +1080,10 @@ article.comment-body {
       color: rgba(255, 255, 255, 0.8); }
     .jetpack_subscription_widget #subscribe-email input[type=email]::placeholder {
       color: rgba(255, 255, 255, 0.8); }
+    .entry-content .jetpack_subscription_widget #subscribe-email input[type=email] {
+      width: 100%;
+      border-color: #36393B;
+      color: #36393B; }
 
 .jetpack_subscription_widget #subscribe-submit {
   display: inline; }
@@ -1089,10 +1093,17 @@ article.comment-body {
     line-height: 1;
     width: 40%;
     height: 40px;
-    padding: 0;
-    border: 1px solid #fff;
-    background-color: #fff;
-    color: #E63331; }
+    padding: 0; }
+    .site-footer .jetpack_subscription_widget #subscribe-submit button {
+      border: 1px solid #fff;
+      background-color: #fff;
+      color: #E63331; }
+    .entry-content .jetpack_subscription_widget #subscribe-submit button {
+      background-color: #E63331;
+      color: #fff;
+      border-radius: 0;
+      margin-top: 0.8em;
+      font-size: 120%; }
 
 /* MILESTONE WIDGET
 ---------------------------------------*/
