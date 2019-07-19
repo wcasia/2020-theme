@@ -203,7 +203,7 @@
 			box-shadow: none;
 			&::placeholder {
 				color: rgba(255,255,255,.8);
-				.entry-content &::placeholder {
+				.entry-content & {
 					color: rgba(54, 57, 59,.8);
 				}
 			}

@@ -1089,9 +1089,9 @@ article.comment-body {
       color: rgba(255, 255, 255, 0.8); }
     .jetpack_subscription_widget #subscribe-email input[type=email]::placeholder {
       color: rgba(255, 255, 255, 0.8); }
-      .entry-content .jetpack_subscription_widget #subscribe-email input[type=email]:-ms-input-placeholder::placeholder {
+      .entry-content .jetpack_subscription_widget #subscribe-email input[type=email]:-ms-input-placeholder {
         color: rgba(54, 57, 59, 0.8); }
-      .entry-content .jetpack_subscription_widget #subscribe-email input[type=email]::placeholder::placeholder {
+      .entry-content .jetpack_subscription_widget #subscribe-email input[type=email]::placeholder {
         color: rgba(54, 57, 59, 0.8); }
     .entry-content .jetpack_subscription_widget #subscribe-email input[type=email] {
       background-color: #fff;
