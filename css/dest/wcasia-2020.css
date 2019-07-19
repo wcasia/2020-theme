@@ -655,7 +655,7 @@ select {
     margin: 0 0 1.5em 0; }
   .entry-content a.more-link {
     padding: .5rem 1rem;
-    background: #0D5ABC;
+    background: #E63331;
     color: #fff; }
   .entry-content .has-small-font-size {
     font-size: .8125em;
@@ -726,14 +726,11 @@ select {
     .site-main .post-navigation .nav-previous a:before, .site-main .posts-navigation .nav-previous a:before {
       content: "\f104";
       margin-right: .5em;
-      color: #0D5ABC;
+      color: #E63331;
       display: inline-block;
       font-family: FontAwesome;
       font-size: 1rem;
-      font-weight: 300;
-      position: absolute;
-      top: 0;
-      left: 0; }
+      font-weight: 300; }
 
 .site-main .post-navigation .nav-next, .site-main .posts-navigation .nav-next {
   font-size: 0.875rem;
@@ -746,14 +743,11 @@ select {
     .site-main .post-navigation .nav-next a:after, .site-main .posts-navigation .nav-next a:after {
       content: "\f105";
       margin-left: .5em;
-      color: #0D5ABC;
+      color: #E63331;
       display: inline-block;
       font-family: FontAwesome;
       font-size: 1rem;
-      font-weight: 300;
-      position: absolute;
-      top: 0;
-      right: 0; }
+      font-weight: 300; }
 
 /* COMMENTS
 ---------------------------------------*/

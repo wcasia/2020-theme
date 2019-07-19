@@ -55,7 +55,7 @@
 
 	a.more-link {
 		padding: .5rem 1rem;
-		background: $color-rose-pink;
+		background: $color-red;
 		color: $color-white;
 	}
 
@@ -160,14 +160,11 @@
 			&:before {
 				content: "\f104";
 				margin-right: .5em;
-				color: $color-rose-pink;
+				color: $color-red;
 				display: inline-block;
 				font-family: FontAwesome;
 				font-size: 1rem;
 				font-weight: 300;
-				position: absolute;
-				top: 0;
-				left: 0;
 			}
 		}
 	}
@@ -182,14 +179,11 @@
 			&:after {
 				content: "\f105";
 				margin-left: .5em;
-				color: $color-rose-pink;
+				color: $color-red;
 				display: inline-block;
 				font-family: FontAwesome;
 				font-size: 1rem;
 				font-weight: 300;
-				position: absolute;
-				top: 0;
-				right: 0;
 			}
 		}
 	}
