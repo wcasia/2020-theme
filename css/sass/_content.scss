@@ -4,9 +4,11 @@
 .entry-header {
 	text-align: center;
 
-	.entry-image {
-		margin-left: -10rem;
-		margin-right: -10rem;
+	@media screen and (min-width: 1024px) {
+		.entry-image {
+			margin-left: -10rem;
+			margin-right: -10rem;
+		}
 	}
 }
 
@@ -31,6 +33,10 @@
 	a > time {}
 
 	.byline a {}
+
+	.home & {
+		display: inline;
+	}
 }
 
 .entry-content {

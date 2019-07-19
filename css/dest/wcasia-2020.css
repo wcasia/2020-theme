@@ -626,9 +626,10 @@ select {
 ---------------------------------------*/
 .entry-header {
   text-align: center; }
-  .entry-header .entry-image {
-    margin-left: -10rem;
-    margin-right: -10rem; }
+  @media screen and (min-width: 1024px) {
+    .entry-header .entry-image {
+      margin-left: -10rem;
+      margin-right: -10rem; } }
 
 .entry-title {
   color: #E63331;
@@ -643,6 +644,8 @@ select {
 
 .entry-meta {
   font-size: 0.875em; }
+  .home .entry-meta {
+    display: inline; }
 
 .entry-content {
   margin: 1.5rem 0; }
