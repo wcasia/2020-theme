@@ -355,6 +355,9 @@ select {
 ---------------------------------------*/
 .site-header .custom-header {
   clear: both; }
+  .site-header .custom-header .custom-logo-link,
+  .site-header .custom-header .custom-logo {
+    display: none; }
   .site-header .custom-header .site-branding {
     padding-top: 1.5em;
     padding-bottom: 1.5em;

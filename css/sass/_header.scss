@@ -4,7 +4,11 @@
 .site-header {
 	.custom-header {
 	    clear: both;
-
+		
+		& .custom-logo-link,
+		& .custom-logo {
+			display: none;
+		}
 		.site-branding {
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
