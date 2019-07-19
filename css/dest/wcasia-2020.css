@@ -460,6 +460,8 @@ select {
       padding-bottom: 5em; } }
   #header-widgets .widget {
     text-align: center; }
+  #header-widgets .widget_media_image {
+    display: none; }
 
 /* NAVIGATION
 ---------------------------------------*/
