@@ -12,6 +12,9 @@
 		}
 		.site-title {
 			text-align: center;
+			width: 70%;
+			max-width: 100%;
+			display: inline-block;
 
 			a {
 				color: $color-red;
@@ -59,6 +62,9 @@
 @media screen and (min-width: 768px) {
 	.site-header {
 		.custom-header {
+			.site-title {
+				width: 100%;
+			}
 			.site-description {
 				font-size: 1em;
 			}
@@ -70,7 +76,7 @@
 	.site-header {
 		.custom-header {
 			.site-branding {
-				padding-top: 5em;
+				padding-top: 9.5em;
 			}
 			.site-description {
 				font-size: 1.1em;

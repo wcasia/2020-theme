@@ -360,7 +360,10 @@ select {
     padding-bottom: 1.5em;
     text-align: center; }
   .site-header .custom-header .site-title {
-    text-align: center; }
+    text-align: center;
+    width: 70%;
+    max-width: 100%;
+    display: inline-block; }
     .site-header .custom-header .site-title a {
       color: #E63331; }
     .page .site-header .custom-header .site-title, .single .site-header .custom-header .site-title {
@@ -394,12 +397,14 @@ select {
   font-size: 1em; }
 
 @media screen and (min-width: 768px) {
+  .site-header .custom-header .site-title {
+    width: 100%; }
   .site-header .custom-header .site-description {
     font-size: 1em; } }
 
 @media screen and (min-width: 1024px) {
   .site-header .custom-header .site-branding {
-    padding-top: 5em; }
+    padding-top: 9.5em; }
   .site-header .custom-header .site-description {
     font-size: 1.1em; } }
 
