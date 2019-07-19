@@ -203,11 +203,19 @@
 			box-shadow: none;
 			&::placeholder {
 				color: rgba(255,255,255,.8);
+				.entry-content &::placeholder {
+					color: rgba( 54, 57, 59,.8 );
+				}
 			}
 			.entry-content & {
+				box-shadow: inset 0 0.125rem 0 0 #f7f7fc;
+    			border: 1px solid #ccc;
 				width: 100%;
-				border-color: $color-grey;
 				color: $color-grey;
+			}
+			.entry-content &:focus {
+			    outline: 0;
+			    box-shadow: 0 0 0 0.12em $color-red;
 			}
 		}
 	}
