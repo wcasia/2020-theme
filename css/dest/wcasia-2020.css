@@ -1182,7 +1182,8 @@ article.comment-body {
     padding: 1rem 1.5rem; }
   .tix_tickets_table td {
     padding: 1.5rem;
-    border-top: 1px dashed #ddd; }
+    border-top: 1px dashed #ddd;
+    background-color: #fff}
 
 .tix-ticket-title {
   display: inline-block;
