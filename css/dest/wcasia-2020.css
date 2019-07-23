@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: WordCamp Asia 2020
 Author: Team WordCamp Asia 2020
@@ -1363,6 +1364,17 @@ h3.org-group {
 .wcorg-organizer-description .avatar {
   float: left;
   margin: 0 20px 20px 0; }
+
+.org-team-leads--local .wordcamp-organizers__title:after,
+.org-team-leads--global .wordcamp-organizers__title:after {
+  font-size: 0.7em;
+  font-weight: 400; }
+
+.org-team-leads--local .wordcamp-organizers__title:after {
+  content: '— Local lead'; }
+
+.org-team-leads--global .wordcamp-organizers__title:after {
+  content: '— Global lead'; }
 
 /* ATTENDEES
 ---------------------------------------*/
