@@ -676,6 +676,10 @@ select {
     margin-left: calc( -100vw / 2 + 100% / 2);
     margin-right: calc( -100vw / 2 + 100% / 2);
     max-width: 100vw; }
+  .entry-content .align-left {
+    display: inline;
+    float: left;
+    margin-right: 1.5em; }
   .entry-content .alignwide {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
