@@ -12,7 +12,7 @@ h3.org-group {
 	margin-bottom: 2.5rem;
 	&:before, &:after {
 		content: '';
-		border-top: 1px dotted $color-rose-pink;
+		border-top: 1px dotted $color-red;
 		margin: 0 1.5rem 0 0;
 		flex: 1 0 1.5rem;
 	}
