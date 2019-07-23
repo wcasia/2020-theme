@@ -4,25 +4,21 @@
 .site-header {
 	.custom-header {
 	    clear: both;
-
+		
+		& .custom-logo-link,
+		& .custom-logo {
+			display: none;
+		}
 		.site-branding {
 			padding-top: 1.5em;
 			padding-bottom: 1.5em;
 			text-align: center;
-
-			&:before {
-				content: "";
-			    width: 82px;
-			    height: 82px;
-			    color: black;
-				background-image: url(https://2020.asia.wordcamp.org/files/2019/07/logo-wcasia-teaser@2x.png);
-				background-size: contain;
-			    background-repeat: no-repeat;
-			    display: inline-block;
-			}
 		}
 		.site-title {
 			text-align: center;
+			width: 70%;
+			max-width: 100%;
+			display: inline-block;
 
 			a {
 				color: $color-red;
@@ -70,6 +66,9 @@
 @media screen and (min-width: 768px) {
 	.site-header {
 		.custom-header {
+			.site-title {
+				width: 100%;
+			}
 			.site-description {
 				font-size: 1em;
 			}
@@ -81,7 +80,7 @@
 	.site-header {
 		.custom-header {
 			.site-branding {
-				padding-top: 5em;
+				padding-top: 9.5em;
 			}
 			.site-description {
 				font-size: 1.1em;
@@ -93,9 +92,7 @@
 @media screen and (min-width: 1600px) {
 	.site-header {
 		.custom-header {
-			.site-branding {
-				padding-top: 6em;
-			}
+			.site-branding {}
 		}
 	}
 }
@@ -103,9 +100,7 @@
 @media screen and (min-width: 1920px) {
 	.site-header {
 		.custom-header {
-			.site-branding {
-				padding-top: 8em;
-			}
+			.site-branding {}
 		}
 	}
 }
