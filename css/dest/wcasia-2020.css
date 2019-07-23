@@ -372,7 +372,7 @@ select {
     text-align: center; }
     .site-header .custom-header .site-title a {
       color: #E63331; }
-    .page .site-header .custom-header .site-title, .single .site-header .custom-header .site-title {
+    .archive .site-header .custom-header .site-title, .page .site-header .custom-header .site-title, .single .site-header .custom-header .site-title {
       font-family: "Rubik", sans-serif;
       font-weight: 700;
       margin-bottom: .5rem;
