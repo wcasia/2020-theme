@@ -801,7 +801,7 @@ article.comment-body {
       font-weight: 600;
       margin-left: 3rem; }
       article.comment-body .comment-author b.fn a {
-        color: #0D5ABC; }
+        color: #E63331; }
     article.comment-body .comment-author .says {
       display: none; }
   article.comment-body .comment-metadata {
@@ -809,7 +809,7 @@ article.comment-body {
     line-height: 1.4;
     margin-left: 3.25rem; }
     article.comment-body .comment-metadata a {
-      color: #0D5ABC; }
+      color: #E63331; }
   article.comment-body .comment-content {
     margin-top: .5rem;
     padding: 1.5rem;
@@ -833,13 +833,16 @@ article.comment-body {
     color: #E63331; }
   .comment-respond .comment-form label {
     font-size: .875rem;
-    color: #0D5ABC;
+    color: #36393B;
     text-transform: uppercase;
     font-weight: 500; }
   .comment-respond .comment-form p {
     margin-bottom: 1rem; }
     .comment-respond .comment-form p:last-child {
       margin-bottom: 0; }
+  .comment-respond .comment-form input[type="checkbox"],
+  .comment-respond .comment-form input[type="radio"] {
+    margin-right: 5px; }
   .comment-respond .comment-form .form-submit {
     padding-top: .5rem; }
 

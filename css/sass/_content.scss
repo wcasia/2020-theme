@@ -249,7 +249,7 @@ article.comment-body {
 			@include font-weight(semi-bold);
 			margin-left: 3rem;
 			a {
-				color: $color-blue;
+				color: $color-red;
 			}
 		}
 		.says {
@@ -261,7 +261,7 @@ article.comment-body {
 		line-height: 1.4;
 		margin-left: 3.25rem;
 		a {
-			color: $color-blue;
+			color: $color-red;
 		}
 	}
 	.comment-content {
@@ -294,7 +294,7 @@ article.comment-body {
 	.comment-form {
 		label {
 			font-size: .875rem;
-			color: $color-blue;
+			color: $text-color;
 			text-transform: uppercase;
 			@include font-weight(medium);
 		}
@@ -303,6 +303,10 @@ article.comment-body {
 			&:last-child {
 				margin-bottom: 0;
 			}
+		}
+		input[type="checkbox"],
+		input[type="radio"] {
+			margin-right: 5px;
 		}
 		.form-submit {
 			padding-top: .5rem;
