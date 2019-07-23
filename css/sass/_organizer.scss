@@ -20,6 +20,7 @@ h3.org-group {
 		margin: 0 0 0 1.5rem;
 	}
 }
+
 .wcorg-organizer {
 	h2 {
 		color: $color-navy;
@@ -31,5 +32,21 @@ h3.org-group {
 	.avatar {
 		float: left;
 		margin: 0 20px 20px 0;
+	}
+}
+
+.org-team-leads {
+	&--local .wordcamp-organizers__title:after,
+	&--global .wordcamp-organizers__title:after {
+		font-size: 0.7em;
+		font-weight: 400;
+	}
+
+	&--local .wordcamp-organizers__title:after {
+		content: '— Local lead';
+	}
+
+	&--global .wordcamp-organizers__title:after {
+		content: '— Global lead';
 	}
 }
