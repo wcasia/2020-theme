@@ -1182,7 +1182,7 @@ article.comment-body {
 .tix_tickets_table {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
   .tix_tickets_table th {
-    background-color: #0D5ABC;
+    background-color: #E63331;
     color: #fff;
     font-size: .9375rem;
     font-weight: 400; }
@@ -1199,10 +1199,10 @@ article.comment-body {
   margin-bottom: .75rem; }
 
 .tix-ticket-excerpt {
-  color: #0D5ABC; }
+  color: #36393B; }
 
 .tix-column-price, .tix-column-remaining, .tix-column-quantity, .tix-column-per-ticket {
-  color: #104b8c;
+  color: #36393B;
   font-size: 1em;
   font-weight: 500;
   text-align: center; }
@@ -1211,7 +1211,7 @@ article.comment-body {
   font-weight: 600; }
 
 .tix-column-remaining {
-  color: #0D5ABC; }
+  color: #36393B; }
 
 .tix-row-coupon td, .tix-row-total td {
   background: #f8f8f8; }
