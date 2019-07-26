@@ -699,6 +699,13 @@ select {
   .entry-content .wp-block-quote.is-large p, .entry-content .wp-block-quote.is-style-large p {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
+  .entry-content .wp-block-table {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+    .entry-content .wp-block-table th {
+      background-color: #e63331;
+      color: #fff;
+      font-size: .9375rem;
+      font-weight: 400; }
 
 .entry-content a:hover,
 .page-content a:hover {

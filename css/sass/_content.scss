@@ -121,6 +121,17 @@
 		margin-bottom: 1.5rem;
 	}
 
+	.wp-block-table {
+	    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+
+		th {
+			background-color: #e63331;
+			color: #fff;
+			font-size: .9375rem;
+			font-weight: 400;
+		}
+	}
+
 }
 
 .entry-content a,
