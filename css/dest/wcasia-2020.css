@@ -85,17 +85,27 @@ body {
   body {
     font-size: 1.125em; } }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Rubik", sans-serif;
   font-weight: 700;
   margin-top: 2rem;
   margin-bottom: .5rem;
   line-height: 1.25em; }
 
-h1:first-child, h2:first-child, h3:first-child, h4:first-child {
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
   margin-top: 0; }
 
-h1 + h2, h2 + h3, h3 + h4 {
+h1 + h2,
+h2 + h3,
+h3 + h4 {
   margin-top: .5rem; }
 
 h1 {
@@ -116,18 +126,22 @@ h5 {
 h6 {
   font-size: 1em; }
 
-b, strong {
+b,
+strong {
   font-weight: 700; }
 
 em {
   font-stretch: italic; }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
   text-decoration: none;
   color: #E63331;
   word-break: break-word; }
 
-a:active, a:hover {
+a:active,
+a:hover {
   text-decoration: none;
   color: #E63331; }
 
@@ -136,7 +150,8 @@ a:focus {
 
 p {
   margin-top: 0;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  word-break: break-all; }
 
 sup sub {
   font-size: 75%;
@@ -149,10 +164,21 @@ sup {
 sub {
   bottom: -.25em; }
 
-dl, ol, ul {
+dl,
+ol,
+ul {
   margin-bottom: 1.5rem; }
 
-dl dl, dl ol, dl ul, li, ol dl, ol ol, ol ul, ul dl, ul ol, ul ul {
+dl dl,
+dl ol,
+dl ul,
+li,
+ol dl,
+ol ol,
+ol ul,
+ul dl,
+ul ol,
+ul ul {
   margin-bottom: 0; }
 
 li {
@@ -182,7 +208,8 @@ blockquote p:last-child {
   color: #0D5ABC;
   margin-bottom: 0; }
 
-code, pre {
+code,
+pre {
   border: 1px solid #bbc2e7;
   border-top-color: #6675c9;
   border-radius: .1875rem;
