@@ -699,6 +699,15 @@ select {
   .entry-content .wp-block-quote.is-large p, .entry-content .wp-block-quote.is-style-large p {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem; }
+  .entry-content .wp-block-table {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+    .entry-content .wp-block-table th {
+      background-color: #E63331;
+      color: #fff;
+      font-size: .9375rem;
+      font-weight: 400; }
+    .entry-content .wp-block-table tbody {
+      background-color: #fff; }
 
 .entry-content a:hover,
 .page-content a:hover {
@@ -1108,7 +1117,6 @@ article.comment-body {
       background-color: #fff;
       box-shadow: inset 0 0.125rem 0 0 #f7f7fc;
       border: 1px solid #ccc;
-      width: 100%;
       color: #36393B; }
     .entry-content .jetpack_subscription_widget #subscribe-email input[type=email]:focus {
       outline: 0;
@@ -1131,7 +1139,6 @@ article.comment-body {
       background-color: #E63331;
       color: #fff;
       border-radius: 0;
-      margin-top: 0.8em;
       font-size: 120%; }
 
 /* MILESTONE WIDGET
@@ -1182,7 +1189,7 @@ article.comment-body {
 .tix_tickets_table {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
   .tix_tickets_table th {
-    background-color: #0D5ABC;
+    background-color: #E63331;
     color: #fff;
     font-size: .9375rem;
     font-weight: 400; }
@@ -1199,10 +1206,10 @@ article.comment-body {
   margin-bottom: .75rem; }
 
 .tix-ticket-excerpt {
-  color: #0D5ABC; }
+  color: #36393B; }
 
 .tix-column-price, .tix-column-remaining, .tix-column-quantity, .tix-column-per-ticket {
-  color: #104b8c;
+  color: #36393B;
   font-size: 1em;
   font-weight: 500;
   text-align: center; }
@@ -1211,7 +1218,7 @@ article.comment-body {
   font-weight: 600; }
 
 .tix-column-remaining {
-  color: #0D5ABC; }
+  color: #36393B; }
 
 .tix-row-coupon td, .tix-row-total td {
   background: #f8f8f8; }

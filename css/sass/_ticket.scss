@@ -19,7 +19,7 @@
 	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 	// border: 1px solid $color-rose-pink;
 	th {
-		background-color: $color-blue;
+		background-color: $color-red;
 		color: $color-white;
 		font-size: .9375rem;
 		@include font-weight(regular);
@@ -30,7 +30,7 @@
 	td {
 		padding: 1.5rem;
 		border-top: 1px dashed #ddd;
-		background-color: #fff
+		background-color: $color-white;
 	}
 }
 
@@ -41,11 +41,11 @@
 }
 
 .tix-ticket-excerpt {
-	color: $color-blue;
+	color: $color-grey;
 }
 
 .tix-column-price, .tix-column-remaining, .tix-column-quantity, .tix-column-per-ticket {
-	color: $color-navy;
+	color: $color-grey;
 	font-size: 1em;
 	@include font-weight(medium);
 	text-align: center;
@@ -56,7 +56,7 @@
 }
 
 .tix-column-remaining {
-	color: $color-blue;
+	color: $color-grey;
 }
 
 .tix-row-coupon, .tix-row-total {
