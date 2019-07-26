@@ -21,7 +21,7 @@ Setup guide for the WordCamp Asia 2020 theme.
 * Setup your front page.
 
 **Fonts | _Appearance -> Fonts_**
-* This year we use font "Chonburi" and "Bai Jamjuree" on Google web fonts. @import url('https://fonts.googleapis.com/css?family=Bai+Jamjuree:300,400,500,600,700|Chonburi&amp;subset=thai');
+* This year we use font "Rubik" and "Roboto Slab" on Google web fonts. @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Rubik:400,700&display=swap');
 * If you want to use FontAwesome. Enter CDN URL (https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 
 
