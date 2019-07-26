@@ -2,163 +2,161 @@
 ---------------------------------------*/
 
 .site-header {
-	.custom-header {
-	    clear: both;
-		
-		& .custom-logo-link,
-		& .custom-logo {
-			display: none;
-		}
-		.site-branding {
-			padding-top: 1.5em;
-			padding-bottom: 1.5em;
-			text-align: center;
-		}
-		.site-title {
-			text-align: center;
-			width: 70%;
-			max-width: 100%;
-			display: inline-block;
-
-			a {
-				color: $color-red;
-			}
-			.archive &, .page &, .single & {
-				font-family: $font-primary;
-				font-weight: 700;
-				margin-bottom: .5rem;
-				line-height: 1.25em;
-			}
-		}
-		.site-description {
-			display: none; // Used as browser title description.
-			color: $color-blue;
-			font-family: $font-secondary;
-			font-size: .8em;
-			line-height: 1.3;
-			font-weight: 500;
-			padding-top: .5em;
-			margin: 0;
-		}
-	}
+    .custom-header {
+        clear: both;
+        & .custom-logo-link,
+        & .custom-logo {
+            display: none;
+        }
+        .site-branding {
+            padding-top: 1.5em;
+            padding-bottom: 1.5em;
+            text-align: center;
+        }
+        .site-title {
+            text-align: center;
+            width: 80%;
+            max-width: 100%;
+            display: inline-block;
+            a {
+                color: $color-red;
+            }
+            .archive &,
+            .page &,
+            .single & {
+                font-family: $font-primary;
+                font-weight: 700;
+                margin-bottom: .5rem;
+                line-height: 1.25em;
+            }
+        }
+        .site-description {
+            display: none; // Used as browser title description.
+            color: $color-blue;
+            font-family: $font-secondary;
+            font-size: .8em;
+            line-height: 1.3;
+            font-weight: 500;
+            padding-top: .5em;
+            margin: 0;
+        }
+    }
 }
 
 .site-header {
-	.custom-header {
-		.site-branding {
-			padding-top: 2.5em;
-			padding-bottom: 0;
-		}
-		.home & .site-title {
-			font-size: 3.215em;
-		}
-		.page & .site-title,
-		.single & .site-title {
-			font-size: 2.215em;
-		}
-		.site-description {
-			text-align: center;
-			font-size: 1em;
-		}
-	}
+    .custom-header {
+        .site-branding {
+            padding-top: 2.5em;
+            padding-bottom: 0;
+        }
+        .home & .site-title {
+            font-size: 3.215em;
+        }
+        .page & .site-title,
+        .single & .site-title {
+            font-size: 2.215em;
+        }
+        .site-description {
+            text-align: center;
+            font-size: 1em;
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {
-	.site-header {
-		.custom-header {
-			.site-title {
-				width: 100%;
-			}
-			.site-description {
-				font-size: 1em;
-			}
-		}
-	}
+    .site-header {
+        .custom-header {
+            .site-title {
+                width: 100%;
+            }
+            .site-description {
+                font-size: 1em;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1024px) {
-	.site-header {
-		.custom-header {
-			.site-branding {
-				padding-top: 9.5em;
-			}
-			.site-description {
-				font-size: 1.1em;
-			}
-		}
-	}
+    .site-header {
+        .custom-header {
+            .site-branding {
+                padding-top: 9.5em;
+            }
+            .site-description {
+                font-size: 1.1em;
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1600px) {
-	.site-header {
-		.custom-header {
-			.site-branding {}
-		}
-	}
+    .site-header {
+        .custom-header {
+            .site-branding {}
+        }
+    }
 }
 
 @media screen and (min-width: 1920px) {
-	.site-header {
-		.custom-header {
-			.site-branding {}
-		}
-	}
+    .site-header {
+        .custom-header {
+            .site-branding {}
+        }
+    }
 }
 
-
 .cta-button {
-	border: 1px solid $color-red;
-	display: table;
-	margin: 30px auto;
-	width: 700px;
-	p, a {
-		display: table-cell;
-		margin: 0;
-		padding: 10px 20px;
-		font-size: 1.2em;
-		vertical-align: middle;
-	}
-	a {
-		background-color: $color-red;
-		color: #FFF !important;
-		font-size: 1.6em;
-		text-transform: uppercase;
-		text-align: center;
-	}
+    border: 1px solid $color-red;
+    display: table;
+    margin: 30px auto;
+    width: 700px;
+    p,
+    a {
+        display: table-cell;
+        margin: 0;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        vertical-align: middle;
+    }
+    a {
+        background-color: $color-red;
+        color: #FFF !important;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-	.cta-button {
-		text-align: center;
-		width: 80%;
-		p, a {
-			display: block;
-		}
-	}
+    .cta-button {
+        text-align: center;
+        width: 80%;
+        p,
+        a {
+            display: block;
+        }
+    }
 }
+
 
 /* HEADER WIDGETS
 ---------------------------------------*/
+
 #header-widgets {
-	padding-bottom: 5em;
-
-	@media screen and (min-width: 1024px) {
-		padding-bottom: 5em;
-	}
-
-	@media screen and (min-width: 1600px) {
-		padding-bottom: 5em;
-	}
-
-	@media screen and (min-width: 1920px) {
-		padding-bottom: 5em;
-	}
-
-	.widget {
-		text-align: center;
-	}
-
-	.widget_media_image {
-		display: none;
-	}
+    padding-bottom: 5em;
+    @media screen and (min-width: 1024px) {
+        padding-bottom: 5em;
+    }
+    @media screen and (min-width: 1600px) {
+        padding-bottom: 5em;
+    }
+    @media screen and (min-width: 1920px) {
+        padding-bottom: 5em;
+    }
+    .widget {
+        text-align: center;
+    }
+    .widget_media_image {
+        display: none;
+    }
 }
