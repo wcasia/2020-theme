@@ -706,6 +706,8 @@ select {
       color: #fff;
       font-size: .9375rem;
       font-weight: 400; }
+    .entry-content .wp-block-table tbody {
+      background-color: #fff; }
 
 .entry-content a:hover,
 .page-content a:hover {
