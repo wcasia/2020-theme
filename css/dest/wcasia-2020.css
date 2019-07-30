@@ -1260,7 +1260,6 @@ article.comment-body {
   text-align: left; }
 
 #tix input[type="submit"] {
-  float: none !important;
   display: inline-block;
   font-size: 1.125em; }
 
