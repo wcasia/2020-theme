@@ -136,6 +136,14 @@
             display: block;
         }
     }
+    .site-header {
+        .custom-header {
+          
+            .home & .site-title {
+                font-size: 2.215em;
+            }
+        }
+    }
 }
 
 

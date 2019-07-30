@@ -466,7 +466,9 @@ select {
     width: 80%; }
     .cta-button p,
     .cta-button a {
-      display: block; } }
+      display: block; }
+  .home .site-header .custom-header .site-title {
+    font-size: 2.215em; } }
 
 /* HEADER WIDGETS
 ---------------------------------------*/
