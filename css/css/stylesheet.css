@@ -1170,6 +1170,8 @@ article.comment-body {
   margin-bottom: 2.5rem; }
   #tix h2 {
     font-size: 1.563em; }
+  #tix #tix-coupon-container input[type=submit] {
+    margin-top: 10px; }
 
 .tix-error {
   background-color: #E63331;
