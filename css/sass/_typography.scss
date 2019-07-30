@@ -2,179 +2,206 @@
 ---------------------------------------*/
 
 body {
-	font-family: $font-secondary;
-	@include font-weight(regular);
-	font-size: 1em;
-	line-height: 1.5625em;
-	color: $text-color;
+    font-family: $font-secondary;
+    @include font-weight(regular);
+    font-size: 1em;
+    line-height: 1.5625em;
+    color: $text-color;
 }
 
 @media (min-width: 768px) {
-	body {
-		font-size: 1.125em;
-	}
+    body {
+        font-size: 1.125em;
+    }
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: $font-primary;
-	@include font-weight(bold);
-	margin-top: 2rem;
-	margin-bottom: .5rem;
-	line-height: 1.25em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-primary;
+    @include font-weight(bold);
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    line-height: 1.25em;
 }
 
-h1:first-child, h2:first-child, h3:first-child, h4:first-child {
-	margin-top: 0;
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
+    margin-top: 0;
 }
 
-h1+h2, h2+h3, h3+h4 {
-	margin-top: .5rem;
+h1+h2,
+h2+h3,
+h3+h4 {
+    margin-top: .5rem;
 }
 
 h1 {
-	font-size: 3.052em;
+    font-size: 3.052em;
 }
 
 h2 {
-	font-size: 2.441em;
+    font-size: 2.441em;
 }
 
 h3 {
-	font-size: 1.953em;
+    font-size: 1.953em;
 }
 
 h4 {
-	font-size: 1.563em;
+    font-size: 1.563em;
 }
 
 h5 {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 h6 {
-	font-size: 1em;
+    font-size: 1em;
 }
 
-b, strong {
-	@include font-weight(bold);
+b,
+strong {
+    @include font-weight(bold);
 }
 
 em {
-	font-stretch: italic;
+    font-stretch: italic;
 }
 
-a, a:link, a:visited {
-	text-decoration: none;
-	color: $color-red;
-	word-break: break-word;
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: $color-red;
+    word-break: break-word;
 }
 
-a:active, a:hover {
-	text-decoration: none;
-	color: $color-red;
+a:active,
+a:hover {
+    text-decoration: none;
+    color: $color-red;
 }
 
 a:focus {
-	color: $color-red;
+    color: $color-red;
 }
 
 p {
-	margin-top: 0;
-	margin-bottom: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    word-break: break-all;
 }
 
 sup sub {
-	font-size: 75%;
-	line-height: 0;
-	position: relative;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
 }
 
 sup {
-	top: -.5em;
+    top: -.5em;
 }
 
 sub {
-	bottom: -.25em;
+    bottom: -.25em;
 }
 
-dl,ol,ul {
-	margin-bottom: 1.5rem;
+dl,
+ol,
+ul {
+    margin-bottom: 1.5rem;
 }
 
-dl dl,dl ol,dl ul,li,ol dl,ol ol,ol ul,ul dl,ul ol,ul ul {
-	margin-bottom: 0;
+dl dl,
+dl ol,
+dl ul,
+li,
+ol dl,
+ol ol,
+ol ul,
+ul dl,
+ul ol,
+ul ul {
+    margin-bottom: 0;
 }
 
 li {
-	margin-top: .25rem;
+    margin-top: .25rem;
 }
 
 li:first-child {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 blockquote {
-	margin: 0 -1.5rem 1.5rem -1.5rem;
-	padding: 1.5rem;
-	border-top: 1px solid #f2f2f2;
-	border-bottom: 1px solid #f2f2f2;
+    margin: 0 -1.5rem 1.5rem -1.5rem;
+    padding: 1.5rem;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 blockquote p {
-	font-family: $font-primary;
-	font-size: 1em;
-	line-height: 1.4;
-	color: $color-blue;
-	em {
-		font-style: normal;
-	}
+    font-family: $font-primary;
+    font-size: 1em;
+    line-height: 1.4;
+    color: $color-blue;
+    em {
+        font-style: normal;
+    }
 }
 
 blockquote p:last-child {
-	font-family: $font-secondary;
-	font-size: 1em;
-	font-style: italic;
-	color: $color-blue;
-	margin-bottom: 0;
+    font-family: $font-secondary;
+    font-size: 1em;
+    font-style: italic;
+    color: $color-blue;
+    margin-bottom: 0;
 }
 
-code,pre {
-	border: 1px solid #bbc2e7;
-	border-top-color: #6675c9;
-	border-radius: .1875rem;
-	font-size: 14px;
-	font-size: .875rem;
-	line-height: 1.5;
-	color: rgba(0,0,0,.75);
-	font-family: Bitstream Vera Sans Mono, Consolas, Courier, monospace;
-	direction: ltr;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	-webkit-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-	-moz-tab-size: 2;
-	-o-tab-size: 2;
-	tab-size: 2;
+code,
+pre {
+    border: 1px solid #bbc2e7;
+    border-top-color: #6675c9;
+    border-radius: .1875rem;
+    font-size: 14px;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, .75);
+    font-family: Bitstream Vera Sans Mono, Consolas, Courier, monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
 }
 
 pre {
-	margin: 1.5rem 0;
-	padding: 1.5rem;
-	overflow: scroll;
+    margin: 1.5rem 0;
+    padding: 1.5rem;
+    overflow: scroll;
 }
 
 code {
-	padding: .125rem .1875rem;
-	background-color: #feddde;
+    padding: .125rem .1875rem;
+    background-color: #feddde;
 }
 
 pre code {
-	border-radius: 0;
-	border: 0;
-	padding: 0;
-	background: 0;
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    background: 0;
 }
