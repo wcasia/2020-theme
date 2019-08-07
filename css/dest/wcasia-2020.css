@@ -1306,6 +1306,20 @@ article.comment-body {
   margin-top: 1.5rem;
   margin-left: auto; }
 
+.camptix-invoice-toggle-wrapper {
+  width: 100%; }
+
+.camptix-invoice-details .tix_invoice_table:before {
+  display: table-caption;
+  width: 100%;
+  height: 55px;
+  content: 'Invoice Details';
+  background-color: #E63331;
+  color: #fff;
+  font-size: .9375rem;
+  font-weight: 400;
+  padding: 0.75rem 1.5rem; }
+
 @media only screen and (max-width: 767px) {
   .tix_tickets_table th, .tix_tickets_table td {
     display: block;
