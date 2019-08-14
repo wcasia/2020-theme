@@ -1441,7 +1441,8 @@ h3.org-group {
   #tix-attendees .tix-columns-3 li:nth-child(3n+1) {
     clear: left; } }
 
-#tix-attendees:after, #tix-attendees:before {
+#tix-attendees:after,
+#tix-attendees:before {
   content: "";
   display: table; }
 
@@ -1473,6 +1474,9 @@ h3.org-group {
 
 #tix-attendees a {
   display: block; }
+  #tix-attendees a:hover, #tix-attendees a:active, #tix-attendees a:focus {
+    border-bottom: 0;
+    text-decoration: underline; }
 
 #tix-attendees .tix-field {
   display: block;
