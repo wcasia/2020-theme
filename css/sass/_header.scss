@@ -18,8 +18,21 @@
             width: 80%;
             max-width: 100%;
             display: inline-block;
+            margin-top: 0;
+
             a {
+				display: inherit;
                 color: $color-red;
+            }
+
+            a:before {
+            	background-image: url(https://raw.githubusercontent.com/wcasia/theme-2020/feature/logo/images/logomark-color-light@2x.png);
+			    content: '';
+			    display: block;
+			    height: 120px;
+			    width: 120px;
+			    background-size: contain;
+			    margin: 0 auto 0.5em;
             }
             .archive &,
             .page &,
@@ -50,11 +63,11 @@
             padding-bottom: 0;
         }
         .home & .site-title {
-            font-size: 3.215em;
+            font-size: 1.5em;
         }
         .page & .site-title,
         .single & .site-title {
-            font-size: 2.215em;
+            font-size: 1.5em;
         }
         .site-description {
             text-align: center;
@@ -69,6 +82,9 @@
             .site-title {
                 width: 100%;
             }
+            .home & .site-title {
+                font-size: 2.215em;
+            }
             .site-description {
                 font-size: 1em;
             }
@@ -80,7 +96,16 @@
     .site-header {
         .custom-header {
             .site-branding {
-                padding-top: 9.5em;
+                padding-top: 5.5em;
+            }
+            .site-title {
+            	a:before {
+	            	height: 200px;
+	            	width: 200px;
+	            }
+	        }
+	        .home & .site-title {
+                font-size: 3.215em;
             }
             .site-description {
                 font-size: 1.1em;
@@ -136,14 +161,6 @@
             display: block;
         }
     }
-    .site-header {
-        .custom-header {
-          
-            .home & .site-title {
-                font-size: 2.215em;
-            }
-        }
-    }
 }
 
 
@@ -151,16 +168,13 @@
 ---------------------------------------*/
 
 #header-widgets {
-    padding-bottom: 5em;
+    padding-bottom: 0;
+
     @media screen and (min-width: 1024px) {
-        padding-bottom: 5em;
+        padding-bottom: 2.5em;
     }
-    @media screen and (min-width: 1600px) {
-        padding-bottom: 5em;
-    }
-    @media screen and (min-width: 1920px) {
-        padding-bottom: 5em;
-    }
+    @media screen and (min-width: 1600px) {}
+    @media screen and (min-width: 1920px) {}
     .widget {
         text-align: center;
     }
