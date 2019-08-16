@@ -107,6 +107,10 @@
 	        .home & .site-title {
                 font-size: 3.215em;
             }
+            .page & .site-title,
+	        .single & .site-title {
+	            font-size: 1.667em;
+	        }
             .site-description {
                 font-size: 1.1em;
             }

@@ -454,6 +454,9 @@ select {
     width: 200px; }
   .home .site-header .custom-header .site-title {
     font-size: 3.215em; }
+  .page .site-header .custom-header .site-title,
+  .single .site-header .custom-header .site-title {
+    font-size: 1.667em; }
   .site-header .custom-header .site-description {
     font-size: 1.1em; } }
 
