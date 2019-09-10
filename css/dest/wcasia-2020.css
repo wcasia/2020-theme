@@ -919,6 +919,7 @@ article.comment-body {
     color: #fff;
     font-size: 1.25em; }
     .wp-block-button .wp-block-button__link:hover, .wp-block-button .wp-block-button__link:focus, .wp-block-button .wp-block-button__link:visited {
+      border-bottom: 0;
       color: #fff; }
   .wp-block-button._float {
     margin-bottom: 0;
