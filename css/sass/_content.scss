@@ -353,6 +353,7 @@ article.comment-body {
 		color: $color-white;
 		font-size: 1.25em;
 		&:hover, &:focus, &:visited {
+			border-bottom: 0;
 			color: $color-white;
 		}
 	}
