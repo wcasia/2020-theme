@@ -8,7 +8,6 @@ body {
     line-height: 1.5625em;
     color: $text-color;
 }
-
 @media (min-width: 768px) {
     body {
         font-size: 1.125em;
@@ -27,6 +26,8 @@ h6 {
     margin-bottom: .5rem;
     line-height: 1.25em;
 }
+
+
 
 h1:first-child,
 h2:first-child,
@@ -203,4 +204,86 @@ pre code {
     border: 0;
     padding: 0;
     background: 0;
+}
+
+
+
+
+
+// body font for Thai
+
+body.page-id-1377,
+body.parent-pageid-1377 {
+    font-family: $font-thai-body;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-thai-heading;
+    }
+
+    blockquote p {
+        font-family: $font-thai-body;
+    }
+    
+    blockquote p:last-child {
+        font-family: $font-thai-body;
+        
+    }
+
+}
+
+
+// body font for chinese
+
+body.page-id-805,
+body.parent-pageid-805 {
+
+    font-family: $font-chinese;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-chinese;
+    }
+
+    blockquote p {
+        font-family: $font-chinese;
+    }
+    
+    blockquote p:last-child {
+        font-family: $font-chinese;
+        
+    }
+
+}
+
+// body font for japanese
+
+body.page-id-594,
+body.parent-pageid-594 {
+
+    font-family: $font-japanese;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: $font-japanese;
+    }
+
+    blockquote p {
+        font-family: $font-japanese;
+    }
+    
+    blockquote p:last-child {
+        font-family: $font-japanese;
+        
+    }
+
 }
