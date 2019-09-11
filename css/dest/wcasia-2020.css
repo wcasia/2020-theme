@@ -244,6 +244,75 @@ pre code {
   padding: 0;
   background: 0; }
 
+body.page-id-1377,
+body.parent-pageid-1377 {
+  font-family: "Sarabun", sans-serif; }
+  body.page-id-1377 h1,
+  body.page-id-1377 h2,
+  body.page-id-1377 h3,
+  body.page-id-1377 h4,
+  body.page-id-1377 h5,
+  body.page-id-1377 h6,
+  body.parent-pageid-1377 h1,
+  body.parent-pageid-1377 h2,
+  body.parent-pageid-1377 h3,
+  body.parent-pageid-1377 h4,
+  body.parent-pageid-1377 h5,
+  body.parent-pageid-1377 h6 {
+    font-family: "Mitr" sans-serif; }
+  body.page-id-1377 blockquote p,
+  body.parent-pageid-1377 blockquote p {
+    font-family: "Sarabun", sans-serif; }
+  body.page-id-1377 blockquote p:last-child,
+  body.parent-pageid-1377 blockquote p:last-child {
+    font-family: "Sarabun", sans-serif; }
+
+body.page-id-805,
+body.parent-pageid-805 {
+  font-family: "Noto Sans TC", sans-serif; }
+  body.page-id-805 h1,
+  body.page-id-805 h2,
+  body.page-id-805 h3,
+  body.page-id-805 h4,
+  body.page-id-805 h5,
+  body.page-id-805 h6,
+  body.parent-pageid-805 h1,
+  body.parent-pageid-805 h2,
+  body.parent-pageid-805 h3,
+  body.parent-pageid-805 h4,
+  body.parent-pageid-805 h5,
+  body.parent-pageid-805 h6 {
+    font-family: "Noto Sans TC", sans-serif; }
+  body.page-id-805 blockquote p,
+  body.parent-pageid-805 blockquote p {
+    font-family: "Noto Sans TC", sans-serif; }
+  body.page-id-805 blockquote p:last-child,
+  body.parent-pageid-805 blockquote p:last-child {
+    font-family: "Noto Sans TC", sans-serif; }
+
+body.page-id-594,
+body.parent-pageid-594 {
+  font-family: "M PLUS 1p", sans-serif; }
+  body.page-id-594 h1,
+  body.page-id-594 h2,
+  body.page-id-594 h3,
+  body.page-id-594 h4,
+  body.page-id-594 h5,
+  body.page-id-594 h6,
+  body.parent-pageid-594 h1,
+  body.parent-pageid-594 h2,
+  body.parent-pageid-594 h3,
+  body.parent-pageid-594 h4,
+  body.parent-pageid-594 h5,
+  body.parent-pageid-594 h6 {
+    font-family: "M PLUS 1p", sans-serif; }
+  body.page-id-594 blockquote p,
+  body.parent-pageid-594 blockquote p {
+    font-family: "M PLUS 1p", sans-serif; }
+  body.page-id-594 blockquote p:last-child,
+  body.parent-pageid-594 blockquote p:last-child {
+    font-family: "M PLUS 1p", sans-serif; }
+
 /* LAYOUT
 ---------------------------------------*/
 #content, #footer-widgets {
