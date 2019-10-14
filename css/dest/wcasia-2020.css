@@ -1600,8 +1600,6 @@ h3.org-group {
 #tix-attendees .tix-attendee-twitter:last-child:after {
   display: none; }
 
-/* SPONSORS
----------------------------------------*/
 .wcb_widget_sponsors {
   text-align: center; }
   .wcb_widget_sponsors h2 {
@@ -1622,100 +1620,139 @@ h3.org-group {
 
 .sponsor-level {
   margin-bottom: 1.5rem; }
-  .sponsor-level .sponsor-level-title {
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    text-align: center;
-    color: #0D5ABC;
-    font-size: 1.25em;
-    margin-bottom: 1.5rem; }
-    .sponsor-level .sponsor-level-title:before, .sponsor-level .sponsor-level-title:after {
-      content: '';
-      border-top: 1px dotted #F5F1E8;
-      margin: 0 1.5rem 0 0;
-      -ms-flex: 1 0 1.5rem;
-          flex: 1 0 1.5rem; }
-    .sponsor-level .sponsor-level-title:after {
-      margin: 0 0 0 1.5rem; }
-  .sponsor-level.venue img {
-    max-height: 220px !important; }
-  .sponsor-level.gold img {
-    max-height: 200px !important; }
-  .sponsor-level.silver img {
-    max-height: 170px !important; }
-  .sponsor-level.bronze img {
-    max-height: 130px !important; }
-  .sponsor-level.in-kind img {
-    max-height: 100px !important; }
-
-.wcorg-sponsor {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
-  margin-bottom: 1.5rem;
-  padding: 1.5rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
-  .wcorg-sponsor h3 {
-    display: none; }
-  .wcorg-sponsor img {
-    margin: 0 auto; }
-  .wcorg-sponsor .wp-block-image {
-    display: none; }
-
-.wcorg-sponsor-description img {
-  max-width: 100%;
-  margin-bottom: 1.5rem; }
-
-.wcorg-sponsor-level-venue img {
-  max-height: 220px !important; }
-
-.wcorg-sponsor-level-gold img {
-  max-height: 200px !important; }
-
-.wcorg-sponsor-level-silver img {
-  max-height: 170px !important; }
-
-.wcorg-sponsor-level-bronze img {
-  max-height: 130px !important; }
-
-.wcorg-sponsor-level-in-kind img {
-  max-height: 100px !important; }
-
-.wcorg-sponsor-level-venue h2, .wcorg-sponsor-level-gold h2, .wcorg-sponsor-level-silver h2, .wcorg-sponsor-level-bronze h2, .wcorg-sponsor-level-in-kind h2 {
-  display: -ms-flexbox;
-  display: flex;
-  width: calc(100% + 3rem);
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-align: center;
-      align-items: center;
-  text-align: center;
-  color: #0D5ABC;
-  font-size: 1.563em;
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-  margin-top: 2.5rem;
-  margin-bottom: 1.5rem; }
-  .wcorg-sponsor-level-venue h2:before, .wcorg-sponsor-level-venue h2:after, .wcorg-sponsor-level-gold h2:before, .wcorg-sponsor-level-gold h2:after, .wcorg-sponsor-level-silver h2:before, .wcorg-sponsor-level-silver h2:after, .wcorg-sponsor-level-bronze h2:before, .wcorg-sponsor-level-bronze h2:after, .wcorg-sponsor-level-in-kind h2:before, .wcorg-sponsor-level-in-kind h2:after {
-    content: '';
-    border-top: 1px dotted #F5F1E8;
-    margin: 0 1.5rem 0 0;
-    -ms-flex: 1 0 1.5rem;
-        flex: 1 0 1.5rem; }
-  .wcorg-sponsor-level-venue h2:after, .wcorg-sponsor-level-gold h2:after, .wcorg-sponsor-level-silver h2:after, .wcorg-sponsor-level-bronze h2:after, .wcorg-sponsor-level-in-kind h2:after {
-    margin: 0 0 0 1.5rem; }
 
 @media screen and (min-width: 768px) {
   .wcorg-sponsor {
     padding: 2.5rem; } }
+
+.entry-content .wcorg-sponsors h2 {
+  padding: 10px 20px;
+  color: #000;
+  border-radius: 5px;
+  text-align: center;
+  margin: 50px 0;
+  letter-spacing: 5px;
+  width: 100%; }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-siam h2 {
+  margin-top: 0; }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-siam,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-silom,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-asok,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-ari,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-nana,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break {
+  margin-left: -30px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party,
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break {
+      margin: 0;
+      display: block; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor {
+  margin-left: 30px;
+  width: calc(100% / 2 - 30px);
+  margin-bottom: 30px;
+  margin-top: 0;
+  padding: 20px;
+  height: 240px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.15);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+  @media screen and (min-width: 768px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor {
+      padding: 15px; } }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+  .entry-content .wcorg-sponsors .wcorg-sponsor h3 {
+    display: none; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor .wcorg-sponsor-description {
+    display: block;
+    margin: 0 auto; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor img {
+    margin: 0 auto; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor .wp-block-image {
+    display: none; }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
+  width: calc(100% / 3 - 30px);
+  height: 168px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
+  width: calc(100% / 4 - 30px);
+  height: 120px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
+  width: calc(100% / 5 - 30px);
+  height: 96px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
+  width: calc(100% / 7 - 30px);
+  height: 72px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor {
+  width: calc(100% / 2 - 30px);
+  height: 144px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
+  width: 180px;
+  margin: 0 auto;
+  float: none;
+  height: 110px;
+  margin-bottom: 100px; }
+  @media screen and (max-width: 460px) {
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 20px;
+      height: auto; } }
 
 /* SPEAKER
 ---------------------------------------*/
