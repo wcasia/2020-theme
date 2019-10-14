@@ -302,5 +302,19 @@
 	}
 }
 
+.wcb_sponsor {
+	.entry-header .entry-image {
+		display: none;
+	}
 
+	.wp-block-image.alignfull {
+		background: white;
+    	padding: 5.5rem 2.5rem;
 
+    	img {
+    		width: 100%;
+		    max-width: 40rem;
+		    margin: 0 auto;
+    	}
+	}
+}

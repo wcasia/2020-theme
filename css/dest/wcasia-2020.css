@@ -1754,6 +1754,17 @@ h3.org-group {
       margin-bottom: 20px;
       height: auto; } }
 
+.wcb_sponsor .entry-header .entry-image {
+  display: none; }
+
+.wcb_sponsor .wp-block-image.alignfull {
+  background: white;
+  padding: 5.5rem 2.5rem; }
+  .wcb_sponsor .wp-block-image.alignfull img {
+    width: 100%;
+    max-width: 40rem;
+    margin: 0 auto; }
+
 /* SPEAKER
 ---------------------------------------*/
 .wcorg-speaker h2 {
