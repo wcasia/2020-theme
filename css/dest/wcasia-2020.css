@@ -1644,11 +1644,12 @@ h3.org-group {
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana,
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party,
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break {
-  margin-left: -30px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
+      flex-flow: row wrap;
+  -ms-flex-pack: center;
+  justify-content: center; }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam,
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom,
@@ -1661,20 +1662,19 @@ h3.org-group {
       display: block; } }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor {
-  margin-left: 30px;
   width: calc(100% / 2 - 30px);
   margin-bottom: 30px;
   margin-top: 0;
   padding: 20px;
   height: 240px;
-  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.15);
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
   @media screen and (min-width: 768px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor {
-      padding: 15px; } }
+      padding-right: 1.25rem;
+      padding-left: 1.25rem; } }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor {
       width: 100%;
