@@ -1673,8 +1673,8 @@ h3.org-group {
       align-items: center; }
   @media screen and (min-width: 768px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor {
-      padding-right: 1.25rem;
-      padding-left: 1.25rem; } }
+      padding-right: 1.5rem;
+      padding-left: 1.5rem; } }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor {
       width: 100%;
@@ -1692,7 +1692,7 @@ h3.org-group {
     display: none; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
-  width: calc(100% / 3 - 30px);
+  width: calc(100% / 3);
   height: 168px; }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
@@ -1702,7 +1702,7 @@ h3.org-group {
       height: auto; } }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
-  width: calc(100% / 4 - 30px);
+  width: calc(100% / 4);
   height: 120px; }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
@@ -1712,7 +1712,7 @@ h3.org-group {
       height: auto; } }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
-  width: calc(100% / 5 - 30px);
+  width: calc(100% / 5);
   height: 96px; }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
@@ -1722,7 +1722,7 @@ h3.org-group {
       height: auto; } }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
-  width: calc(100% / 7 - 30px);
+  width: calc(100% / 6);
   height: 72px; }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
