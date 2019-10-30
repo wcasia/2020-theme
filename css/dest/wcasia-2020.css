@@ -1632,7 +1632,20 @@ h3.org-group {
   text-align: center;
   margin: 50px 0;
   letter-spacing: 5px;
+  position: relative;
   width: 100%; }
+  .entry-content .wcorg-sponsors h2:before, .entry-content .wcorg-sponsors h2:after {
+    background: #E63331;
+    content: "";
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: calc( 50% - 130px); }
+  .entry-content .wcorg-sponsors h2:before {
+    left: 0; }
+  .entry-content .wcorg-sponsors h2:after {
+    right: 0; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam h2 {
   margin-top: 0; }
