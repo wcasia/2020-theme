@@ -32,22 +32,22 @@
     .wcorg-sponsors {
         h2 {
             padding: 10px 20px;
-            color: #000;
+            color: $color-red-alt;
             border-radius: 5px;
             text-align: center;
-            margin: 50px 0;
-            letter-spacing: 5px;
+            margin: 50px 1.5rem;
+            letter-spacing: 2px;
             position: relative;
             width: 100%;
             &:before,
             &:after {
-                background: $color-red;
+                background: $color-red-alt;
                 content: "";
                 height: 2px;
                 margin-top: -1px;
                 position: absolute;
                 top: 50%;
-                width: calc( 50% - 130px);
+                width: calc( 50% - 5rem);
             }
             &:before {
                 left: 0;
@@ -76,9 +76,9 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            .wcorg-sponsor {
-                background: #f7f7f2;
-            }
+
+            .wcorg-sponsor {}
+
             @media screen and (max-width: 460px) {
                 margin: 0;
                 display: block;
@@ -88,14 +88,11 @@
             width: calc(100% / 2 - 30px);
             margin-bottom: 30px;
             margin-top: 0;
-            padding: 20px;
+            padding: 20px 1.5rem;
             height: 240px;
             display: flex;
             align-items: center;
-            @media screen and (min-width: 768px) {
-                padding-right: 1.5rem;
-                padding-left: 1.5rem;
-            }
+
             @media screen and (max-width: 460px) {
                 width: 100%;
                 margin-left: 0;
@@ -141,97 +138,30 @@
         .wcorg-sponsor-level-coffee-break {
             display: flex;
             flex-flow: row wrap;
+
             .wcorg-sponsor {
-                width: calc(100%/3 - 15px);
+                width: calc(100%/3);
                 margin-left: 0;
                 margin-bottom: 20px;
-                height: auto;
-                margin-right: 20px;
-                padding: 20px 15px;
+                height: auto;;
+
                 &:nth-child(3n+1) {
                     margin-right: 0;
                 }
             }
         }
-        // .wcorg-sponsor-level-asok {
-        //     .wcorg-sponsor {
-        //         width: calc(100% / 4);
-        //         height: 120px;
-        //         @media screen and (max-width: 460px) {
-        //             width: 100%;
-        //             margin-left: 0;
-        //             margin-bottom: 20px;
-        //             height: auto;
-        //         }
-        //     }
-        // }
-        // .wcorg-sponsor-level-ari {
-        //     .wcorg-sponsor {
-        //         width: calc(100% / 5);
-        //         height: 96px;
-        //         @media screen and (max-width: 460px) {
-        //             width: 100%;
-        //             margin-left: 0;
-        //             margin-bottom: 20px;
-        //             height: auto;
-        //         }
-        //     }
-        // }
-        // .wcorg-sponsor-level-nana {
-        //     .wcorg-sponsor {
-        //         width: calc(100% / 6);
-        //         height: 72px;
-        //         @media screen and (max-width: 460px) {
-        //             width: 100%;
-        //             margin-left: 0;
-        //             margin-bottom: 20px;
-        //             height: auto;
-        //         }
-        //     }
-        // }
-        // .wcorg-sponsor-level-after-party {
-        //     .wcorg-sponsor {
-        //         width: calc(100% / 2 - 30px);
-        //         height: 144px;
-        //         @media screen and (max-width: 460px) {
-        //             width: 100%;
-        //             margin-left: 0;
-        //             margin-bottom: 20px;
-        //             height: auto;
-        //         }
-        //     }
-        // }
-        // .wcorg-sponsor-level-coffee-break {
-        //     .wcorg-sponsor {
-        //         width: 180px;
-        //         margin: 0 auto;
-        //         float: none;
-        //         height: 110px;
-        //         margin-bottom: 100px;
-        //         @media screen and (max-width: 460px) {
-        //             width: 100%;
-        //             margin-left: 0;
-        //             margin-bottom: 20px;
-        //             height: auto;
-        //         }
-        //     }
-        // }
     }
 }
 
 @media screen and (min-width: 768px) {
-    // .wcorg-sponsor {
-    //     padding: 2.5rem;
-    // }
-    .entry-content .wcorg-sponsors .wcorg-sponsor {
-        background: #f7f7f2;
-    }
+    .entry-content .wcorg-sponsors .wcorg-sponsor {}
+
     .entry-content .wcorg-sponsors {
         .wcorg-sponsor-level-siam {
             .wcorg-sponsor {
                 height: 240px;
                 margin-right: 30px;
-                width: calc(100% / 2 - 15px);
+                width: calc(100% / 2);
                 &:nth-child(odd) {
                     margin-right: 0;
                 }
@@ -239,7 +169,7 @@
         }
         .wcorg-sponsor-level-silom {
             .wcorg-sponsor {
-                width: calc(100% / 3 - 20px);
+                width: calc(100% / 3);
                 margin-right: 30px;
                 min-height: 168px;
                 &:nth-child(odd) {
@@ -252,10 +182,10 @@
         }
         .wcorg-sponsor-level-asok {
             .wcorg-sponsor {
-                width: calc(100% / 4 - 15px);
+                width: calc(100% / 4);
                 min-height: 120px;
                 &:nth-child(3n+1) {
-                    margin-right: 20px;
+                    margin-right: 0;
                 }
                 &:nth-child(4n+1) {
                     margin-right: 0;
@@ -264,10 +194,10 @@
         }
         .wcorg-sponsor-level-ari {
             .wcorg-sponsor {
-                width: calc(100% / 5 - 20px);
+                width: calc(100% / 5);
                 min-height: 96px;
                 &:nth-child(3n+1) {
-                    margin-right: 20px;
+                    margin-right: 0;
                 }
                 &:nth-child(5n+1) {
                     margin-right: 0;
@@ -278,7 +208,7 @@
         .wcorg-sponsor-level-after-party,
         .wcorg-sponsor-level-coffee-break {
             .wcorg-sponsor {
-                width: calc(100% / 6 - 20px);
+                width: calc(100% / 6);
                 min-height: 72px;
                 &:nth-child(3n+1) {
                     margin-right: 20px;
