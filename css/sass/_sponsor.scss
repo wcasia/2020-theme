@@ -33,12 +33,14 @@
         h2 {
             padding: 10px 20px;
             color: $color-red-alt;
+            font-size: 1.563rem;
             border-radius: 5px;
             text-align: center;
             margin: 50px 1.5rem;
             letter-spacing: 2px;
             position: relative;
             width: 100%;
+
             &:before,
             &:after {
                 background: $color-red-alt;
@@ -47,7 +49,7 @@
                 margin-top: -1px;
                 position: absolute;
                 top: 50%;
-                width: calc( 50% - 5rem);
+                width: calc( 50% - 4rem);
             }
             &:before {
                 left: 0;
@@ -86,9 +88,9 @@
         }
         .wcorg-sponsor {
             width: calc(100% / 2 - 30px);
-            margin-bottom: 30px;
+            margin-bottom: 0;
             margin-top: 0;
-            padding: 20px 1.5rem;
+            padding: 12px 16px;
             height: 240px;
             display: flex;
             align-items: center;
@@ -96,7 +98,6 @@
             @media screen and (max-width: 460px) {
                 width: 100%;
                 margin-left: 0;
-                margin-bottom: 20px;
                 height: auto;
             }
             h3 {
@@ -120,12 +121,7 @@
                 width: calc(100%/2 - 7.5px);
                 height: auto;
                 margin-right: 15px;
-                // @media screen and (min-width: 460px) {
-                //     width: calc(100% / 2);
-                //     margin-left: 0;
-                //     margin-bottom: 20px;
-                //     height: 168px;
-                // }
+
                 &:nth-of-type(2n) {
                     margin-right: 0;
                 }
@@ -142,7 +138,6 @@
             .wcorg-sponsor {
                 width: calc(100%/3);
                 margin-left: 0;
-                margin-bottom: 20px;
                 height: auto;;
 
                 &:nth-child(3n+1) {
