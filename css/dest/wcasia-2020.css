@@ -1621,21 +1621,34 @@ h3.org-group {
 .sponsor-level {
   margin-bottom: 1.5rem; }
 
-@media screen and (min-width: 768px) {
-  .wcorg-sponsor {
-    padding: 2.5rem; } }
-
 .entry-content .wcorg-sponsors h2 {
   padding: 10px 20px;
-  color: #000;
+  color: #EF8162;
+  font-size: 1.563rem;
   border-radius: 5px;
   text-align: center;
-  margin: 50px 0;
-  letter-spacing: 5px;
+  margin: 50px 1.5rem;
+  letter-spacing: 2px;
+  position: relative;
   width: 100%; }
+  .entry-content .wcorg-sponsors h2:before, .entry-content .wcorg-sponsors h2:after {
+    background: #EF8162;
+    content: "";
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: calc( 50% - 4rem); }
+  .entry-content .wcorg-sponsors h2:before {
+    left: 0; }
+  .entry-content .wcorg-sponsors h2:after {
+    right: 0; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam h2 {
   margin-top: 0; }
+
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor {
+  min-height: 168px; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam,
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom,
@@ -1663,23 +1676,18 @@ h3.org-group {
 
 .entry-content .wcorg-sponsors .wcorg-sponsor {
   width: calc(100% / 2 - 30px);
-  margin-bottom: 30px;
+  margin-bottom: 0;
   margin-top: 0;
-  padding: 20px;
+  padding: 12px 16px;
   height: 240px;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center; }
-  @media screen and (min-width: 768px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor {
-      padding-right: 1.5rem;
-      padding-left: 1.5rem; } }
   @media screen and (max-width: 460px) {
     .entry-content .wcorg-sponsors .wcorg-sponsor {
       width: 100%;
       margin-left: 0;
-      margin-bottom: 20px;
       height: auto; } }
   .entry-content .wcorg-sponsors .wcorg-sponsor h3 {
     display: none; }
@@ -1691,68 +1699,84 @@ h3.org-group {
   .entry-content .wcorg-sponsors .wcorg-sponsor .wp-block-image {
     display: none; }
 
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
-  width: calc(100% / 3);
-  height: 168px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-silom {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
+    width: calc(100%/2 - 7.5px);
+    height: auto;
+    margin-right: 15px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor:nth-of-type(2n) {
+      margin-right: 0; }
 
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
-  width: calc(100% / 4);
-  height: 120px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-asok,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-ari,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-nana,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party,
+.entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
+    width: calc(100%/3);
+    margin-left: 0;
+    height: auto; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor:nth-child(3n+1) {
+      margin-right: 0; }
 
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
-  width: calc(100% / 5);
-  height: 96px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
-
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
-  width: calc(100% / 6);
-  height: 72px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
-
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor {
-  width: calc(100% / 2 - 30px);
-  height: 144px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
-
-.entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
-  width: 180px;
-  margin: 0 auto;
-  float: none;
-  height: 110px;
-  margin-bottom: 100px; }
-  @media screen and (max-width: 460px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
-      width: 100%;
-      margin-left: 0;
-      margin-bottom: 20px;
-      height: auto; } }
+@media screen and (min-width: 768px) {
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor {
+    height: 240px;
+    margin-right: 30px;
+    width: calc(100% / 2); }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor:nth-child(odd) {
+      margin-right: 0; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
+    width: calc(100% / 3);
+    margin-right: 30px;
+    min-height: 168px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor:nth-child(odd) {
+      margin-right: 30px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor:nth-child(3n+1) {
+      margin-right: 0; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor {
+    width: calc(100% / 4);
+    min-height: 120px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor:nth-child(3n+1) {
+      margin-right: 0; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor:nth-child(4n+1) {
+      margin-right: 0; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
+    width: calc(100% / 5);
+    min-height: 96px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor:nth-child(3n+1) {
+      margin-right: 0; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor:nth-child(5n+1) {
+      margin-right: 0; }
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor,
+  .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
+    width: calc(100% / 6);
+    min-height: 72px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor:nth-child(3n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor:nth-child(3n+1) {
+      margin-right: 20px; }
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor:nth-child(6n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor:nth-child(6n+1),
+    .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor:nth-child(6n+1) {
+      margin-right: 0; } }
 
 .wcb_sponsor .entry-header .entry-image {
   display: none; }
