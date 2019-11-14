@@ -1645,7 +1645,7 @@ h3.org-group {
     right: 0; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam h2 {
-  margin-top: 0; }
+  margin: 50px 0; }
 
 .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor {
   min-height: 168px; }
