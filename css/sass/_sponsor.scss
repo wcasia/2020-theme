@@ -149,7 +149,7 @@
             .wcorg-sponsor {
                 height: 240px;
                 margin-right: 30px;
-                width: calc(100% / 2);
+                width: calc(100% / 2 - 30px);
                 &:nth-child(odd) {
                     margin-right: 0;
                 }
@@ -157,7 +157,7 @@
         }
         .wcorg-sponsor-level-silom {
             .wcorg-sponsor {
-                width: calc(100% / 3);
+                width: calc(100% / 3 - 30px);
                 margin-right: 30px;
                 min-height: 168px;
                 &:nth-child(odd) {
@@ -182,7 +182,7 @@
         }
         .wcorg-sponsor-level-ari {
             .wcorg-sponsor {
-                width: calc(100% / 5);
+                width: calc(100% / 5 - 7.5px);
                 min-height: 96px;
                 &:nth-child(3n+1) {
                     margin-right: 0;
@@ -196,7 +196,7 @@
         .wcorg-sponsor-level-after-party,
         .wcorg-sponsor-level-coffee-break {
             .wcorg-sponsor {
-                width: calc(100% / 6);
+                width: calc(100% / 6 - 7.5px);
                 min-height: 72px;
                 &:nth-child(3n+1) {
                     margin-right: 20px;

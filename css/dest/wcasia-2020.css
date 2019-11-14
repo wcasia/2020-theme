@@ -1739,11 +1739,11 @@ h3.org-group {
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor {
     height: 240px;
     margin-right: 30px;
-    width: calc(100% / 2); }
+    width: calc(100% / 2 - 30px); }
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-siam .wcorg-sponsor:nth-child(odd) {
       margin-right: 0; }
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 30px);
     margin-right: 30px;
     min-height: 168px; }
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-silom .wcorg-sponsor:nth-child(odd) {
@@ -1758,7 +1758,7 @@ h3.org-group {
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-asok .wcorg-sponsor:nth-child(4n+1) {
       margin-right: 0; }
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor {
-    width: calc(100% / 5);
+    width: calc(100% / 5 - 7.5px);
     min-height: 96px; }
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-ari .wcorg-sponsor:nth-child(3n+1) {
       margin-right: 0; }
@@ -1767,7 +1767,7 @@ h3.org-group {
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor,
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor,
   .entry-content .wcorg-sponsors .wcorg-sponsor-level-coffee-break .wcorg-sponsor {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 7.5px);
     min-height: 72px; }
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-nana .wcorg-sponsor:nth-child(3n+1),
     .entry-content .wcorg-sponsors .wcorg-sponsor-level-after-party .wcorg-sponsor:nth-child(3n+1),
