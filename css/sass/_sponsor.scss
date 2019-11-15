@@ -77,7 +77,6 @@
             -webkit-box-pack: center;
             -ms-flex-pack: center;
             justify-content: center;
-            .wcorg-sponsor {}
             @media screen and (max-width: 460px) {
                 margin: 0;
                 display: block;
@@ -143,7 +142,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .entry-content .wcorg-sponsors .wcorg-sponsor {}
     .entry-content .wcorg-sponsors {
         .wcorg-sponsor-level-siam {
             .wcorg-sponsor {
