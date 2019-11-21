@@ -26,7 +26,8 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-postcss": "^0.6.0",
-    "grunt-sass": "^1.0.0",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^4.12.0",
     "load-grunt-config": "^2.0.0",
     "load-grunt-tasks": "^3.3.0"
   },
