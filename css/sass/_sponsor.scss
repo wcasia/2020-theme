@@ -1,6 +1,20 @@
 // /* SPONSORS
 // ---------------------------------------*/
 .wordcamp-sponsors {
+    
+    &.wordcamp-block.wordcamp-post-list {
+        margin-bottom: 90px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+
+        @media screen and (min-width: 1024px) {
+            & {
+                margin-left: -10rem;
+                margin-right: -10rem;
+            }
+        }
+    }
 
     .wordcamp-post-list__post {
         overflow: hidden;
@@ -16,13 +30,22 @@
         background-color: $color-white;
     }
 
+    &.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
+        width: 47%;
+        margin: auto;
+
+        @media screen and (min-width: 1024px) {
+            width: 33.33%;
+        }
+    }
+
     img.wordcamp-image__featured-image.wp-post-image {
         margin: 0;
     }
 
     @media screen and (min-width: 768px) {
-        &.has-grid-columns-5 {
-            grid-template-columns: repeat(5, 1fr);
+        &.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
+            grid-template-columns: repeat(5,1fr);
         }
     }
 }
@@ -33,7 +56,7 @@ h2.wordcamp-post-heading {
     font-size: 1.563rem;
     border-radius: 5px;
     text-align: center;
-    margin: 50px 1.5rem;
+    margin: 50px 0;
     letter-spacing: 2px;
     position: relative;
     width: 100%;
