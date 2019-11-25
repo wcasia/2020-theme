@@ -2,6 +2,7 @@ module.exports = function (grunt) {
 
 	// require `load-grunt-tasks`, which loads all grunt tasks defined in package.json
 	require('load-grunt-tasks')(grunt);
+
 	// load tasks defined in the `/tasks` folder
 	grunt.loadTasks('tasks');
 

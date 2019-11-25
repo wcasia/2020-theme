@@ -1,5 +1,67 @@
 // /* SPONSORS
 // ---------------------------------------*/
+.wordcamp-sponsors {
+    
+    &.wordcamp-block.wordcamp-post-list {
+        margin-bottom: 90px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+
+        @media screen and (min-width: 1024px) {
+            & {
+                margin-left: -10rem;
+                margin-right: -10rem;
+            }
+        }
+    }
+
+    .wordcamp-post-list__post {
+        overflow: hidden;
+        min-width: 0;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 0;
+        padding: 30px 20px;
+        background-color: $color-white;
+    }
+
+    &.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
+        width: 47%;
+        margin: auto;
+
+        @media screen and (min-width: 1024px) {
+            width: 33.33%;
+        }
+    }
+
+    img.wordcamp-image__featured-image.wp-post-image {
+        margin: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        &.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
+            grid-template-columns: repeat(5,1fr);
+        }
+    }
+}
+
+h2.wordcamp-post-heading {
+    padding: 10px 20px;
+    color: $color-red-alt;
+    font-size: 1.563rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 50px 0;
+    letter-spacing: 2px;
+    position: relative;
+    width: 100%;
+}
+
 .wcb_widget_sponsors {
     text-align: center;
     h2 {

@@ -1600,6 +1600,55 @@ h3.org-group {
 #tix-attendees .tix-attendee-twitter:last-child:after {
   display: none; }
 
+.wordcamp-sponsors.wordcamp-block.wordcamp-post-list {
+  margin-bottom: 90px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0; }
+  @media screen and (min-width: 1024px) {
+    .wordcamp-sponsors.wordcamp-block.wordcamp-post-list {
+      margin-left: -10rem;
+      margin-right: -10rem; } }
+
+.wordcamp-sponsors .wordcamp-post-list__post {
+  overflow: hidden;
+  min-width: 0;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 30px 20px;
+  background-color: #fff; }
+
+.wordcamp-sponsors.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
+  width: 47%;
+  margin: auto; }
+  @media screen and (min-width: 1024px) {
+    .wordcamp-sponsors.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
+      width: 33.33%; } }
+
+.wordcamp-sponsors img.wordcamp-image__featured-image.wp-post-image {
+  margin: 0; }
+
+@media screen and (min-width: 768px) {
+  .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
+    -ms-grid-columns: (1fr)[5];
+        grid-template-columns: repeat(5, 1fr); } }
+
+h2.wordcamp-post-heading {
+  padding: 10px 20px;
+  color: #EF8162;
+  font-size: 1.563rem;
+  border-radius: 5px;
+  text-align: center;
+  margin: 50px 0;
+  letter-spacing: 2px;
+  position: relative;
+  width: 100%; }
+
 .wcb_widget_sponsors {
   text-align: center; }
   .wcb_widget_sponsors h2 {
