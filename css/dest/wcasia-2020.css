@@ -1636,7 +1636,10 @@ h3.org-group {
 @media screen and (min-width: 768px) {
   .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
     -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr); } }
+        grid-template-columns: repeat(5, 1fr); }
+  .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-6 {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr); } }
 
 h2.wordcamp-post-heading {
   padding: 10px 20px;
@@ -1648,6 +1651,18 @@ h2.wordcamp-post-heading {
   letter-spacing: 2px;
   position: relative;
   width: 100%; }
+  h2.wordcamp-post-heading:before, h2.wordcamp-post-heading:after {
+    background: #EF8162;
+    content: "";
+    height: 2px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: calc( 50% - 4rem); }
+  h2.wordcamp-post-heading:before {
+    left: 0; }
+  h2.wordcamp-post-heading:after {
+    right: 0; }
 
 .wcb_widget_sponsors {
   text-align: center; }
