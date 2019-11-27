@@ -25,6 +25,13 @@
         margin: 0;
         padding: 30px 20px;
         background-color: $color-white;
+        .slug-plesk,
+        .slug-paypal {
+            img.wordcamp-image__featured-image {
+                max-width: 60%;
+                margin: auto;
+            }
+        }
     }
     &.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
         width: 47%;

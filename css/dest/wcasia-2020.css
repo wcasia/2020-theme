@@ -1622,6 +1622,10 @@ h3.org-group {
   margin: 0;
   padding: 30px 20px;
   background-color: #fff; }
+  .wordcamp-sponsors .wordcamp-post-list__post .slug-plesk img.wordcamp-image__featured-image,
+  .wordcamp-sponsors .wordcamp-post-list__post .slug-paypal img.wordcamp-image__featured-image {
+    max-width: 60%;
+    margin: auto; }
 
 .wordcamp-sponsors.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
   width: 47%;
