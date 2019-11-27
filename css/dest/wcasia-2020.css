@@ -1651,18 +1651,6 @@ h2.wordcamp-post-heading {
   letter-spacing: 2px;
   position: relative;
   width: 100%; }
-  h2.wordcamp-post-heading:before, h2.wordcamp-post-heading:after {
-    background: #EF8162;
-    content: "";
-    height: 2px;
-    margin-top: -1px;
-    position: absolute;
-    top: 50%;
-    width: calc( 50% - 4rem); }
-  h2.wordcamp-post-heading:before {
-    left: 0; }
-  h2.wordcamp-post-heading:after {
-    right: 0; }
 
 .wcb_widget_sponsors {
   text-align: center; }
