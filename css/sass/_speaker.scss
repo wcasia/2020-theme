@@ -1,6 +1,49 @@
 /* SPEAKER
 ---------------------------------------*/
+.wordcamp-speakers.wordcamp-post-list {
+	padding: 0 2.5em;
 
+	li.wordcamp-post-list__post {
+		margin: 2.5em 0;
+	}
+
+	@media (max-width: 500px) {
+		& {
+			padding: 0 1.5em;
+		}
+
+		.wordcamp-speaker .wordcamp-image__avatar-container { 
+			display: block;
+			float: none;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+}
+
+.wcb_speaker {
+	.wp-social-link a {
+		color: white;
+	}
+
+	.wp-social-link a:hover {
+		border-bottom: none;
+	}
+
+	.speaker-avatar img.avatar.avatar-96.photo {
+		width: 150px;
+		margin: 0 auto 3.5rem;
+	}
+}
+
+.wordcamp-speakers__session-info {
+	display: none !important;
+}
+
+
+/* THEME DEFAULT */
 .wcorg-speaker {
 	h2 {
 		position: relative;
