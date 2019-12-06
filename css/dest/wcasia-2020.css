@@ -1622,6 +1622,10 @@ h3.org-group {
   margin: 0;
   padding: 30px 20px;
   background-color: #fff; }
+  .wordcamp-sponsors .wordcamp-post-list__post .slug-plesk img.wordcamp-image__featured-image,
+  .wordcamp-sponsors .wordcamp-post-list__post .slug-paypal img.wordcamp-image__featured-image {
+    max-width: 60%;
+    margin: auto; }
 
 .wordcamp-sponsors.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
   width: 47%;
@@ -1636,7 +1640,10 @@ h3.org-group {
 @media screen and (min-width: 768px) {
   .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
     -ms-grid-columns: (1fr)[5];
-        grid-template-columns: repeat(5, 1fr); } }
+        grid-template-columns: repeat(5, 1fr); }
+  .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-6 {
+    -ms-grid-columns: (1fr)[6];
+        grid-template-columns: repeat(6, 1fr); } }
 
 h2.wordcamp-post-heading {
   padding: 10px 20px;
