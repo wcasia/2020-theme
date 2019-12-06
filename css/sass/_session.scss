@@ -1,6 +1,19 @@
 /* SESSION
 ---------------------------------------*/
 
+.wcb_session {
+	& #session-speaker-names,
+	& #speaker-session-names {
+		padding-left: 0;
+	}
+
+	.session-categories-links {
+		font-size: medium;
+	}
+}
+
+
+/*  THEME DEFAULT */
 .session-date {
 	background-color: $color-navy;
 	border-radius: 15px;
