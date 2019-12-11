@@ -32,6 +32,9 @@
                 margin: auto;
             }
         }
+        @media screen and (max-width: 320px) {
+            margin: 0 0 1em 0;
+        }
     }
     &.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
         width: 47%;
