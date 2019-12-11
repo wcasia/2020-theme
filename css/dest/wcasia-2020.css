@@ -1626,7 +1626,7 @@ h3.org-group {
   .wordcamp-sponsors .wordcamp-post-list__post .slug-paypal img.wordcamp-image__featured-image {
     max-width: 60%;
     margin: auto; }
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 400px) {
     .wordcamp-sponsors .wordcamp-post-list__post {
       margin: 0 0 1em 0; } }
 
