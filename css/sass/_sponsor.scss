@@ -46,6 +46,11 @@
     img.wordcamp-image__featured-image.wp-post-image {
         margin: 0;
     }
+    @media screen and (max-width: 700px) {
+        &.wordcamp-block.sponsor-block-siam .wordcamp-block.wordcamp-post-list {
+            width: 100%;
+        }
+    }
     @media screen and (min-width: 768px) {
         &.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
             grid-template-columns: repeat(5, 1fr);

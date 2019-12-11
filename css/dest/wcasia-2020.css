@@ -1640,6 +1640,10 @@ h3.org-group {
 .wordcamp-sponsors img.wordcamp-image__featured-image.wp-post-image {
   margin: 0; }
 
+@media screen and (max-width: 700px) {
+  .wordcamp-sponsors.wordcamp-block.sponsor-block-siam .wordcamp-block.wordcamp-post-list {
+    width: 100%; } }
+
 @media screen and (min-width: 768px) {
   .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
     -ms-grid-columns: (1fr)[5];
