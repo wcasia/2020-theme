@@ -1641,8 +1641,9 @@ h3.org-group {
   margin: 0; }
 
 @media screen and (max-width: 700px) {
-  .wordcamp-sponsors.wordcamp-block.sponsor-block-siam .wordcamp-block.wordcamp-post-list {
-    width: 100%; } }
+  .wordcamp-sponsors.wordcamp-block.sponsor-block-siam {
+    -ms-grid-columns: none;
+        grid-template-columns: none; } }
 
 @media screen and (min-width: 768px) {
   .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
