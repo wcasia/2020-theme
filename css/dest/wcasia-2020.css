@@ -1626,6 +1626,9 @@ h3.org-group {
   .wordcamp-sponsors .wordcamp-post-list__post .slug-paypal img.wordcamp-image__featured-image {
     max-width: 60%;
     margin: auto; }
+  @media screen and (max-width: 360px) {
+    .wordcamp-sponsors .wordcamp-post-list__post {
+      margin: 0 0 1em 0; } }
 
 .wordcamp-sponsors.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
   width: 47%;
@@ -1636,6 +1639,10 @@ h3.org-group {
 
 .wordcamp-sponsors img.wordcamp-image__featured-image.wp-post-image {
   margin: 0; }
+
+@media screen and (max-width: 700px) {
+  .wordcamp-sponsors.wordcamp-block.sponsor-block-siam .wordcamp-block.wordcamp-post-list {
+    width: 100%; } }
 
 @media screen and (min-width: 768px) {
   .wordcamp-sponsors.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {

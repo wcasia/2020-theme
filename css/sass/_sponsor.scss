@@ -32,6 +32,9 @@
                 margin: auto;
             }
         }
+        @media screen and (max-width: 360px) {
+            margin: 0 0 1em 0;
+        }
     }
     &.has-layout-list.has-grid-column-3 .wordcamp-post-list__post {
         width: 47%;
@@ -42,6 +45,11 @@
     }
     img.wordcamp-image__featured-image.wp-post-image {
         margin: 0;
+    }
+    @media screen and (max-width: 700px) {
+        &.wordcamp-block.sponsor-block-siam .wordcamp-block.wordcamp-post-list {
+            width: 100%;
+        }
     }
     @media screen and (min-width: 768px) {
         &.wordcamp-block.wordcamp-post-list.has-grid-columns-5 {
