@@ -19,20 +19,18 @@
             max-width: 100%;
             display: inline-block;
             margin-top: 0;
-
             a {
-				display: inherit;
+                display: inherit;
                 color: $color-red;
             }
-
             a:before {
                 background-image: url(https://2020.asia.wordcamp.org/files/2019/08/logomark-color-light@2x-1.png);
-			    content: '';
-			    display: block;
-			    height: 120px;
-			    width: 120px;
-			    background-size: contain;
-			    margin: 0 auto 0.5em;
+                content: '';
+                display: block;
+                height: 120px;
+                width: 120px;
+                background-size: contain;
+                margin: 0 auto 0.5em;
             }
             .archive &,
             .page &,
@@ -99,18 +97,18 @@
                 padding-top: 5.5em;
             }
             .site-title {
-            	a:before {
-	            	height: 200px;
-	            	width: 200px;
-	            }
-	        }
-	        .home & .site-title {
+                a:before {
+                    height: 200px;
+                    width: 200px;
+                }
+            }
+            .home & .site-title {
                 font-size: 3.215em;
             }
             .page & .site-title,
-	        .single & .site-title {
-	            font-size: 1.667em;
-	        }
+            .single & .site-title {
+                font-size: 1.667em;
+            }
             .site-description {
                 font-size: 1.1em;
             }
@@ -173,7 +171,7 @@
 
 #header-widgets {
     padding-bottom: 0;
-
+    text-align: center;
     @media screen and (min-width: 1024px) {
         padding-bottom: 2.5em;
     }
@@ -184,5 +182,27 @@
     }
     .widget_media_image {
         display: none;
+    }
+    #header-widget-2 {
+        #custom_html-4 {
+            background-color: #00924b;
+            color: #fff;
+            margin: auto;
+            padding: 10px 20px;
+            position: relative;
+            width: 80%;
+            transform: skew(-20deg);
+        }
+        .textwidget {
+            transform: skew(20deg);
+        }
+    }
+}
+
+@media screen and (min-width: 568px) {
+    // iPhone 5 landscape
+    #header-widgets #header-widget-2 #custom_html-4 {
+        display: inline-block;
+        width: auto;
     }
 }

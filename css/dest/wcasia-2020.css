@@ -559,7 +559,8 @@ select {
 /* HEADER WIDGETS
 ---------------------------------------*/
 #header-widgets {
-  padding-bottom: 0; }
+  padding-bottom: 0;
+  text-align: center; }
   @media screen and (min-width: 1024px) {
     #header-widgets {
       padding-bottom: 2.5em; } }
@@ -567,6 +568,21 @@ select {
     text-align: center; }
   #header-widgets .widget_media_image {
     display: none; }
+  #header-widgets #header-widget-2 #custom_html-4 {
+    background-color: #00924b;
+    color: #fff;
+    margin: auto;
+    padding: 10px 20px;
+    position: relative;
+    width: 80%;
+    transform: skew(-20deg); }
+  #header-widgets #header-widget-2 .textwidget {
+    transform: skew(20deg); }
+
+@media screen and (min-width: 768px) {
+  #header-widgets #header-widget-2 #custom_html-4 {
+    display: inline-block;
+    width: auto; } }
 
 /* NAVIGATION
 ---------------------------------------*/
