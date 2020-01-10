@@ -58,6 +58,16 @@
         &.wordcamp-block.wordcamp-post-list.has-grid-columns-6 {
             grid-template-columns: repeat(6, 1fr);
         }
+        &.wordcamp-block.sponsor-block-silom .wordcamp-post-list__post {
+            justify-self: flex-end;
+            width: 90%;
+            &:last-child {
+                justify-self: flex-start;
+            }
+        }
+        &.wordcamp-block.sponsor-block-ari {
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
 }
 
