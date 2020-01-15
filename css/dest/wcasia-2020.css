@@ -1473,6 +1473,11 @@ article.comment-body {
   .tix-attendee-form tr td.tix-right, .tix-attendee-form tr td.tix-left {
     text-align: left; } }
 
+@media only screen and (max-width: 360px) {
+  #tix input[type="submit"] {
+    font-size: 1em;
+    font-weight: 500; } }
+
 @media only screen and (max-width: 320px) {
   #tix input[type="submit"] {
     float: none;
