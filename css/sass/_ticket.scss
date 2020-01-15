@@ -267,3 +267,14 @@
 
 }
 
+
+@media only screen and (max-width: 320px) {
+
+	
+#tix input[type="submit"] {
+	float: none;
+	padding: .5em;
+	font-size: 1em;
+}
+
+}
