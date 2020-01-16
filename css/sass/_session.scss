@@ -89,6 +89,10 @@
 
 	.wcpt-session-empty {
 		border-top: 0 none;
+
+		@media screen and (max-width: 640px) {
+			display: none;
+		}		
 	}
 
 	.wcb-session-cell-content a.wcpt-session-title {
@@ -135,6 +139,7 @@
 			content: attr(data-track-title);
 			font-size: 100%;
 			padding: .5rem .75rem;
+			text-transform: capitalize;
 		}
 
 		td.wcpt-session-type-session:after {
