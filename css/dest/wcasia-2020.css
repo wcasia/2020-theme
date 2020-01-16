@@ -1977,14 +1977,14 @@ h2.wordcamp-post-heading {
   .wcpt-schedule th {
     text-align: center;
     border-top: none;
-    background-color: #e63331;
+    background-color: #E63331;
     color: #fff; }
   .wcpt-schedule td {
     border-top: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
     border-bottom: 0 none; }
   .wcpt-schedule .global-session {
-    background-color: white; }
+    background-color: #fff; }
     .wcpt-schedule .global-session .wcpt-session-title {
       color: #36393b;
       font-weight: bold;
@@ -2006,13 +2006,13 @@ h2.wordcamp-post-heading {
   .wcpt-schedule .wcpt-col-time {
     width: 10%; }
   .wcpt-schedule .wcpt-time {
-    color: #36393b; }
+    color: #36393B; }
   .wcpt-schedule .wcpt-session-empty {
     border-top: 0 none; }
   .wcpt-schedule .wcb-session-cell-content a.wcpt-session-title {
-    color: #e63331; }
+    color: #E63331; }
   .wcpt-schedule .wcb-session-cell-content .wcpt-session-speakers {
-    color: #36393b; }
+    color: #36393B; }
   .wcpt-schedule .wcb-session-favourite-icon .dashicons-star-filled {
     color: #a5a5a5; }
   #content .wcpt-schedule a.fav-session-button:active .dashicons-star-filled,
@@ -2021,17 +2021,17 @@ h2.wordcamp-post-heading {
   .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:active .dashicons-star-filled,
   .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:focus .dashicons-star-filled,
   .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:hover .dashicons-star-filled {
-    color: #36393b; }
+    color: #36393B; }
   .wcpt-schedule .wcb-favourite-session .fav-session-button .dashicons-star-filled {
     color: #dab701; }
   .wcpt-schedule .wcb-favourite-session {
-    background: #ffeed0; }
+    background: #FFEED0; }
   @media screen and (max-width: 640px) {
     .wcpt-schedule td.wcpt-session-type-session:before {
       position: relative;
       left: -1.5rem;
       border: none;
-      background: #e63331;
+      background: #E63331;
       color: white;
       display: inline-block;
       margin: 0;
@@ -2049,7 +2049,7 @@ h2.wordcamp-post-heading {
       font-weight: 700;
       color: rgba(0, 0, 0, 0.9);
       border-radius: .1875rem;
-      background: #ffffff;
+      background: #fff;
       margin: 20px 5px 0 0;
       letter-spacing: 1px; } }
   .wcpt-schedule .wcpt-session-type-session:before {
@@ -2062,7 +2062,7 @@ h2.wordcamp-post-heading {
     font-weight: 700;
     color: rgba(0, 0, 0, 0.9);
     border-radius: .1875rem;
-    background: #ffffff;
+    background: #fff;
     margin-bottom: 5px;
     letter-spacing: 1px; }
   .wcpt-schedule .wcb-session-category-development:before,

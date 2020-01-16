@@ -36,7 +36,7 @@
 	th {
 		text-align: center;
 		border-top: none;
-		background-color: #e63331;
+		background-color: $color-red;
 		color: $color-white;
 	}
 	td {
@@ -45,7 +45,7 @@
 		border-bottom: 0 none;
 	}
 	.global-session {
-		background-color: white;
+		background-color: $color-white;
 		.wcpt-session-title {
 			color: #36393b;
 			font-weight: bold;
@@ -84,7 +84,7 @@
 	}
 
 	.wcpt-time {
-		color: #36393b;
+		color: $color-grey;
 	}
 
 	.wcpt-session-empty {
@@ -92,11 +92,11 @@
 	}
 
 	.wcb-session-cell-content a.wcpt-session-title {
-		color: #e63331;
+		color: $color-red;
 	}
 
 	.wcb-session-cell-content .wcpt-session-speakers {
-		color: #36393b;
+		color: $color-grey;
 	}
 
 	.wcb-session-favourite-icon .dashicons-star-filled {
@@ -109,24 +109,25 @@
 	div.wcb-session-favourite-icon a.fav-session-button:active .dashicons-star-filled,
 	div.wcb-session-favourite-icon a.fav-session-button:focus .dashicons-star-filled,
 	div.wcb-session-favourite-icon a.fav-session-button:hover .dashicons-star-filled {
-		color: #36393b;
+		color: $color-grey;
 	}
 
 	.wcb-favourite-session .fav-session-button .dashicons-star-filled {
-		color: #dab701;
+		color: $color-fave-on;
 	}
 
 	.wcb-favourite-session {
-		background: #ffeed0;
+		background: $color-fave-off;
 	}
 
 	/* CATEGORIES */
 	@media screen and (max-width: 640px) {
+
 		td.wcpt-session-type-session:before {
 			position: relative;
 			left: -1.5rem;
 			border: none;
-			background: #e63331;
+			background: $color-red;
 			color: white;
 			display: inline-block;
 			margin: 0;
@@ -146,7 +147,7 @@
 			font-weight: 700;
 			color: rgba(0,0,0,.9);
 			border-radius: .1875rem;
-			background: #ffffff;
+			background: $color-white;
 			margin: 20px 5px 0 0;
 			letter-spacing: 1px;
 		}
@@ -163,7 +164,7 @@
 		font-weight: 700;
 		color: rgba(0,0,0,.9);
 		border-radius: .1875rem;
-		background: #ffffff;
+		background: $color-white;
 		margin-bottom: 5px;
 		letter-spacing: 1px;
 	}
