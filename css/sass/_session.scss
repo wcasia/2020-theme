@@ -32,31 +32,23 @@
 	box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 	th, td {
 		padding: 1rem 1.5rem;
-		// position: relative;
-		// &:after {
-		// 	content: '';
-		// 	background-color: #f8f8f8;
-		// 	display: block;
-		// 	height: 20px;
-		// 	width: 1px;
-		// 	position: absolute;
-		// 	top: 0;
-		// 	right: 0;
-		// }
 	}
 	th {
 		text-align: center;
 		border-top: none;
-		background-color: $color-navy;
+		background-color: #e63331;
 		color: $color-white;
 	}
 	td {
-		border-bottom: 1px solid #f2f2f2;
+		border-top: 1px solid #d8d8d8;
+		border-right: 1px solid #d8d8d8;
+		border-bottom: 0 none;
 	}
 	.global-session {
-		background-color: lighten($color-rose-pink, 30%);
+		background-color: white;
 		.wcpt-session-title {
-			color: darken($color-rose-pink, 5%);
+			color: #36393b;
+			font-weight: bold;
 			font-size: 1.125em;
 			@include font-weight(medium);
 			letter-spacing: 1px;
@@ -69,30 +61,146 @@
 	}
 	.wcpt-time {
 		background-color: #f8f8f8;
-		color: $color-navy;
 		text-align: center;
-	}
-	.wcpt-time-915am, .wcpt-time-1000am, .wcpt-time-100pm {
-		.wcpt-time {
-			color: $color-navy;
-			text-align: center;
-		}
-		.wcpt-session-type-custom {
-			background-color: #FFF;
-		}
-		&.global-session {
-			.wcpt-session-title {
-				color: $color-navy;
-			}
-		}
 	}
 	.wcpt-session-type-session {
 		width: 25%;
 	}
-	.wcpt-time-300pm {
-		.wcpt-session-type-session {
-			background-color: lighten($color-blue, 55%);
+
+	@media screen and (max-width: 700px) {
+		.wcpt-session-title {
+			padding: 10px 0;		
 		}
+		span.wcpt-session-speakers {
+			padding-left: 0;
+		}
+	}
+
+	/**
+	 * WCASIA
+	 **/
+	.wcpt-col-time {
+		width: 10%;
+	}
+
+	.wcpt-time {
+		color: #36393b;
+	}
+
+	.wcpt-session-empty {
+		border-top: 0 none;
+	}
+
+	.wcb-session-cell-content a.wcpt-session-title {
+		color: #e63331;
+	}
+
+	.wcb-session-cell-content .wcpt-session-speakers {
+		color: #36393b;
+	}
+
+	.wcb-session-favourite-icon .dashicons-star-filled {
+		color: #a5a5a5;
+	}
+
+	#content & a.fav-session-button:active .dashicons-star-filled,
+	#content & a.fav-session-button:focus .dashicons-star-filled,
+	#content & a.fav-session-button:hover .dashicons-star-filled,
+	div.wcb-session-favourite-icon a.fav-session-button:active .dashicons-star-filled,
+	div.wcb-session-favourite-icon a.fav-session-button:focus .dashicons-star-filled,
+	div.wcb-session-favourite-icon a.fav-session-button:hover .dashicons-star-filled {
+		color: #36393b;
+	}
+
+	.wcb-favourite-session .fav-session-button .dashicons-star-filled {
+		color: #dab701;
+	}
+
+	.wcb-favourite-session {
+		background: #ffeed0;
+	}
+
+	/* CATEGORIES */
+	@media screen and (max-width: 640px) {
+		td.wcpt-session-type-session:before {
+			position: relative;
+			left: -1.5rem;
+			border: none;
+			background: #e63331;
+			color: white;
+			display: inline-block;
+			margin: 0;
+			border-radius: 0;
+			content: attr(data-track-title);
+			font-size: 100%;
+			padding: .5rem .75rem;
+		}
+
+		td.wcpt-session-type-session:after {
+			display: inline-block;
+			padding: .0625rem .375rem;
+			bottom: 1rem;
+			font-size: .7em;
+			line-height: 1.25em;
+			text-transform: uppercase;
+			font-weight: 700;
+			color: rgba(0,0,0,.9);
+			border-radius: .1875rem;
+			background: #ffffff;
+			margin: 20px 5px 0 0;
+			letter-spacing: 1px;
+		}
+
+	}
+
+	.wcpt-session-type-session:before {
+		display: inline-block;
+		padding: .0625rem .375rem;
+		bottom: 1rem;
+		font-size: .7em;
+		line-height: 1.25em;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: rgba(0,0,0,.9);
+		border-radius: .1875rem;
+		background: #ffffff;
+		margin-bottom: 5px;
+		letter-spacing: 1px;
+	}
+
+	.wcb-session-category-development:before,
+	.wcb-session-category-development:after {
+		content: "Development";
+	}
+
+	.wcb-session-category-content:before,
+	.wcb-session-category-content:after {
+		content: "Content";
+	}
+
+	.wcb-session-category-community:before,
+	.wcb-session-category-community:after {
+		content: "Community";
+	}
+
+	.wcb-session-category-design-alt:before,
+	.wcb-session-category-design-alt:after {
+		content: "Design";
+	}
+
+	.wcb-session-category-business:before,
+	.wcb-session-category-business:after {
+		content: "Business";
+	}
+
+	.wcb-session-category-panel-discussion:before,
+	.wcb-session-category-panel-discussion:after {
+		content: "Panel Discussion";
+	}
+
+	.wcb-session-category-thai-talks:before,
+	.wcb-session-category-thai-talks:after {
+		content: "Thai";
 	}
 }
 
@@ -108,11 +216,7 @@
 		display: block;
 		font-size: 0.875em;
 		padding-top: 10px;
-		// &::before {
-		// 	content: 'by';
-		// 	display: inline-block;
-		// 	margin-right: 5px;
-		// }
+
 		a {
 			color: $color-blue;
 			text-decoration: underline;

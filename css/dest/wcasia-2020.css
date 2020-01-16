@@ -1967,20 +1967,27 @@ h2.wordcamp-post-heading {
   margin-left: -10rem;
   margin-right: -10rem;
   min-width: calc(100% + 20rem);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  /**
+	 * WCASIA
+	 **/
+  /* CATEGORIES */ }
   .wcpt-schedule th, .wcpt-schedule td {
     padding: 1rem 1.5rem; }
   .wcpt-schedule th {
     text-align: center;
     border-top: none;
-    background-color: #104b8c;
+    background-color: #e63331;
     color: #fff; }
   .wcpt-schedule td {
-    border-bottom: 1px solid #f2f2f2; }
+    border-top: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-bottom: 0 none; }
   .wcpt-schedule .global-session {
-    background-color: #6da9f5; }
+    background-color: white; }
     .wcpt-schedule .global-session .wcpt-session-title {
-      color: #0b4fa4;
+      color: #36393b;
+      font-weight: bold;
       font-size: 1.125em;
       font-weight: 500;
       letter-spacing: 1px; }
@@ -1988,19 +1995,97 @@ h2.wordcamp-post-heading {
       display: none; }
   .wcpt-schedule .wcpt-time {
     background-color: #f8f8f8;
-    color: #104b8c;
     text-align: center; }
-  .wcpt-schedule .wcpt-time-915am .wcpt-time, .wcpt-schedule .wcpt-time-1000am .wcpt-time, .wcpt-schedule .wcpt-time-100pm .wcpt-time {
-    color: #104b8c;
-    text-align: center; }
-  .wcpt-schedule .wcpt-time-915am .wcpt-session-type-custom, .wcpt-schedule .wcpt-time-1000am .wcpt-session-type-custom, .wcpt-schedule .wcpt-time-100pm .wcpt-session-type-custom {
-    background-color: #FFF; }
-  .wcpt-schedule .wcpt-time-915am.global-session .wcpt-session-title, .wcpt-schedule .wcpt-time-1000am.global-session .wcpt-session-title, .wcpt-schedule .wcpt-time-100pm.global-session .wcpt-session-title {
-    color: #104b8c; }
   .wcpt-schedule .wcpt-session-type-session {
     width: 25%; }
-  .wcpt-schedule .wcpt-time-300pm .wcpt-session-type-session {
-    background-color: #e4effd; }
+  @media screen and (max-width: 700px) {
+    .wcpt-schedule .wcpt-session-title {
+      padding: 10px 0; }
+    .wcpt-schedule span.wcpt-session-speakers {
+      padding-left: 0; } }
+  .wcpt-schedule .wcpt-col-time {
+    width: 10%; }
+  .wcpt-schedule .wcpt-time {
+    color: #36393b; }
+  .wcpt-schedule .wcpt-session-empty {
+    border-top: 0 none; }
+  .wcpt-schedule .wcb-session-cell-content a.wcpt-session-title {
+    color: #e63331; }
+  .wcpt-schedule .wcb-session-cell-content .wcpt-session-speakers {
+    color: #36393b; }
+  .wcpt-schedule .wcb-session-favourite-icon .dashicons-star-filled {
+    color: #a5a5a5; }
+  #content .wcpt-schedule a.fav-session-button:active .dashicons-star-filled,
+  #content .wcpt-schedule a.fav-session-button:focus .dashicons-star-filled,
+  #content .wcpt-schedule a.fav-session-button:hover .dashicons-star-filled,
+  .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:active .dashicons-star-filled,
+  .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:focus .dashicons-star-filled,
+  .wcpt-schedule div.wcb-session-favourite-icon a.fav-session-button:hover .dashicons-star-filled {
+    color: #36393b; }
+  .wcpt-schedule .wcb-favourite-session .fav-session-button .dashicons-star-filled {
+    color: #dab701; }
+  .wcpt-schedule .wcb-favourite-session {
+    background: #ffeed0; }
+  @media screen and (max-width: 640px) {
+    .wcpt-schedule td.wcpt-session-type-session:before {
+      position: relative;
+      left: -1.5rem;
+      border: none;
+      background: #e63331;
+      color: white;
+      display: inline-block;
+      margin: 0;
+      border-radius: 0;
+      content: attr(data-track-title);
+      font-size: 100%;
+      padding: .5rem .75rem; }
+    .wcpt-schedule td.wcpt-session-type-session:after {
+      display: inline-block;
+      padding: .0625rem .375rem;
+      bottom: 1rem;
+      font-size: .7em;
+      line-height: 1.25em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.9);
+      border-radius: .1875rem;
+      background: #ffffff;
+      margin: 20px 5px 0 0;
+      letter-spacing: 1px; } }
+  .wcpt-schedule .wcpt-session-type-session:before {
+    display: inline-block;
+    padding: .0625rem .375rem;
+    bottom: 1rem;
+    font-size: .7em;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: .1875rem;
+    background: #ffffff;
+    margin-bottom: 5px;
+    letter-spacing: 1px; }
+  .wcpt-schedule .wcb-session-category-development:before,
+  .wcpt-schedule .wcb-session-category-development:after {
+    content: "Development"; }
+  .wcpt-schedule .wcb-session-category-content:before,
+  .wcpt-schedule .wcb-session-category-content:after {
+    content: "Content"; }
+  .wcpt-schedule .wcb-session-category-community:before,
+  .wcpt-schedule .wcb-session-category-community:after {
+    content: "Community"; }
+  .wcpt-schedule .wcb-session-category-design-alt:before,
+  .wcpt-schedule .wcb-session-category-design-alt:after {
+    content: "Design"; }
+  .wcpt-schedule .wcb-session-category-business:before,
+  .wcpt-schedule .wcb-session-category-business:after {
+    content: "Business"; }
+  .wcpt-schedule .wcb-session-category-panel-discussion:before,
+  .wcpt-schedule .wcb-session-category-panel-discussion:after {
+    content: "Panel Discussion"; }
+  .wcpt-schedule .wcb-session-category-thai-talks:before,
+  .wcpt-schedule .wcb-session-category-thai-talks:after {
+    content: "Thai"; }
 
 .page-slug-contributor-day .wcpt-col-time {
   width: 10%; }
