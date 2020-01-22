@@ -1682,7 +1682,7 @@ h3.org-group {
   .wordcamp-sponsors.wordcamp-block.sponsor-block-silom .wordcamp-post-list__post {
     justify-self: flex-end;
     width: 90%; }
-    .wordcamp-sponsors.wordcamp-block.sponsor-block-silom .wordcamp-post-list__post:last-child {
+    .wordcamp-sponsors.wordcamp-block.sponsor-block-silom .wordcamp-post-list__post:nth-child(2n) {
       justify-self: flex-start; }
   .wordcamp-sponsors.wordcamp-block.sponsor-block-ari {
     -ms-grid-columns: (1fr)[4];

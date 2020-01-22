@@ -61,7 +61,7 @@
         &.wordcamp-block.sponsor-block-silom .wordcamp-post-list__post {
             justify-self: flex-end;
             width: 90%;
-            &:last-child {
+            &:nth-child(2n) {
                 justify-self: flex-start;
             }
         }
