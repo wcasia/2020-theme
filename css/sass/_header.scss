@@ -1,6 +1,19 @@
 /* HEADER
 ---------------------------------------*/
 
+.home .site-header {
+    background: url(https://2020.asia.wordcamp.org/files/2020/01/wcasia-header_w2000.png) center 28px no-repeat transparent;
+    background-size: contain;
+    .custom-header .site-branding .site-title {
+        font-size: 30.17px;
+        line-height: 36px;
+    }
+    #header-widgets .widget {
+        font-size: 16.97px;
+        line-height: 22px;
+    }
+}
+
 .site-header {
     .custom-header {
         clear: both;
@@ -74,6 +87,17 @@
     }
 }
 
+@media screen and (min-width: 568px) {
+    .site-header .custom-header .site-branding {
+        padding-top: 8.5em;
+    }
+    // iPhone 5 landscape
+    .home #header-widgets #header-widget-2 #custom_html-4 {
+        display: inline-block;
+        width: auto;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .site-header {
         .custom-header {
@@ -87,6 +111,12 @@
                 font-size: 1em;
             }
         }
+    }
+    .home .site-header {
+        background-position: center 16px;
+    }
+    .site-header .custom-header .site-branding {
+        padding-top: 9em;
     }
 }
 
@@ -114,13 +144,70 @@
             }
         }
     }
+    .home .site-header {
+        background-position: center 0px;
+        background-size: cover;
+    }
+    .site-header .custom-header .site-branding {
+        padding-top: 6em;
+    }
+    .home .site-header .custom-header .site-title a:before {
+        height: 120px;
+        width: 120px;
+    }
+    .home .site-header .custom-header .site-branding .site-title {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .home .site-header #header-widgets .widget {
+        font-size: 14px;
+    }
+    .home #header-widgets {
+        padding-bottom: 15em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .home .site-header {
+        background-position: center -11px;
+    }
+    .site-header .custom-header .site-branding {
+        padding-top: 3em;
+    }
+    .home .site-header .custom-header .site-title a:before {
+        height: 200px;
+        width: 200px;
+    }
+    .home .site-header .custom-header .site-branding .site-title {
+        font-size: 30.17px;
+        margin-bottom: 0;
+    }
+    .home .site-header #header-widgets .widget {
+        font-size: 16.97px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .home .site-header {
+        background-position: center -27px;
+    }
+    .site-header .custom-header .site-branding {
+        padding-top: 5em;
+    }
+    .home #header-widgets {
+        padding-bottom: 18em;
+    }
 }
 
 @media screen and (min-width: 1600px) {
-    .site-header {
-        .custom-header {
-            .site-branding {}
-        }
+    .home .site-header {
+        background-position: center -31px;
+    }
+    .site-header .custom-header .site-branding {
+        padding-top: 5em;
+    }
+    .home #header-widgets {
+        padding-bottom: 20em;
     }
 }
 
@@ -196,13 +283,5 @@
         .textwidget {
             transform: skew(20deg);
         }
-    }
-}
-
-@media screen and (min-width: 568px) {
-    // iPhone 5 landscape
-    #header-widgets #header-widget-2 #custom_html-4 {
-        display: inline-block;
-        width: auto;
     }
 }
