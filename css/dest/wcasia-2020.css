@@ -450,14 +450,23 @@ select {
 /* HEADER
 ---------------------------------------*/
 .home .site-header {
-  background: url(https://2020.asia.wordcamp.org/files/2020/01/wcasia-header_w2000.png) center 28px no-repeat transparent;
-  background-size: contain; }
+  background: url(https://2020.asia.wordcamp.org/files/2020/01/wcasia-header_w2000.png) center center no-repeat transparent;
+  background-size: auto 130%; }
+  .home .site-header .custom-header .site-branding {
+    padding-top: 2.5em; }
   .home .site-header .custom-header .site-branding .site-title {
     font-size: 30.17px;
-    line-height: 36px; }
+    line-height: 36px;
+    width: 80%; }
+  .home .site-header #header-widgets {
+    padding-bottom: 0; }
   .home .site-header #header-widgets .widget {
     font-size: 16.97px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin: 0 auto 20px;
+    width: 60%; }
+  .home .site-header #header-widget-2 {
+    margin-top: 5em; }
 
 .site-header .custom-header {
   clear: both; }
@@ -517,6 +526,10 @@ select {
   text-align: center;
   font-size: 1em; }
 
+@media screen and (min-width: 400px) {
+  .home .site-header #header-widget-2 {
+    margin-top: 7em; } }
+
 @media screen and (min-width: 568px) {
   .site-header .custom-header .site-branding {
     padding-top: 8.5em; }
@@ -531,10 +544,8 @@ select {
     font-size: 2.215em; }
   .site-header .custom-header .site-description {
     font-size: 1em; }
-  .home .site-header {
-    background-position: center 16px; }
-  .site-header .custom-header .site-branding {
-    padding-top: 9em; } }
+  .home .site-header #header-widget-2 {
+    margin-top: 10em; } }
 
 @media screen and (min-width: 1024px) {
   .site-header .custom-header .site-branding {
@@ -548,52 +559,28 @@ select {
   .single .site-header .custom-header .site-title {
     font-size: 1.667em; }
   .site-header .custom-header .site-description {
-    font-size: 1.1em; }
-  .home .site-header {
-    background-position: center 0px;
-    background-size: cover; }
-  .site-header .custom-header .site-branding {
-    padding-top: 6em; }
-  .home .site-header .custom-header .site-title a:before {
-    height: 120px;
-    width: 120px; }
-  .home .site-header .custom-header .site-branding .site-title {
-    font-size: 24px;
-    margin-bottom: 0; }
-  .home .site-header #header-widgets .widget {
-    font-size: 14px; }
-  .home #header-widgets {
-    padding-bottom: 15em; } }
+    font-size: 1.1em; } }
 
 @media screen and (min-width: 1200px) {
   .home .site-header {
-    background-position: center -11px; }
+    background-position: center -2em;
+    background-size: cover; }
   .site-header .custom-header .site-branding {
-    padding-top: 3em; }
-  .home .site-header .custom-header .site-title a:before {
-    height: 200px;
-    width: 200px; }
-  .home .site-header .custom-header .site-branding .site-title {
-    font-size: 30.17px;
-    margin-bottom: 0; }
-  .home .site-header #header-widgets .widget {
-    font-size: 16.97px; } }
+    padding-top: 2.5em; }
+  .home .site-header .custom-header .site-branding {
+    padding-top: 7em; }
+  .home .site-header #header-widget-2 {
+    margin-top: 0; }
+  .home .site-header #header-widgets {
+    padding-bottom: 17em; } }
 
 @media screen and (min-width: 1400px) {
-  .home .site-header {
-    background-position: center -27px; }
   .site-header .custom-header .site-branding {
-    padding-top: 5em; }
-  .home #header-widgets {
-    padding-bottom: 18em; } }
+    padding-top: 5em; } }
 
 @media screen and (min-width: 1600px) {
-  .home .site-header {
-    background-position: center -31px; }
   .site-header .custom-header .site-branding {
-    padding-top: 5em; }
-  .home #header-widgets {
-    padding-bottom: 20em; } }
+    padding-top: 5em; } }
 
 .cta-button {
   border: 1px solid #E63331;
