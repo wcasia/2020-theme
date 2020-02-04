@@ -101,6 +101,62 @@
     }
 }
 
+
+/* HEADER WIDGETS
+---------------------------------------*/
+
+#header-widgets {
+    padding-bottom: 0;
+    text-align: center;
+    @media screen and (min-width: 1024px) {
+        padding-bottom: 2.5em;
+    }
+    @media screen and (min-width: 1600px) {}
+    @media screen and (min-width: 1920px) {}
+    .widget {
+        text-align: center;
+    }
+    .widget_media_image {
+        display: none;
+    }
+    #header-widget-2 {
+        #custom_html-4 {
+            background-color: #00924b;
+            color: #fff;
+            margin: auto;
+            padding: 10px 20px;
+            position: relative;
+            width: 80%;
+            transform: skew(-20deg);
+        }
+        .textwidget {
+            transform: skew(20deg);
+        }
+    }
+}
+
+.cta-button {
+    border: 1px solid $color-red;
+    display: table;
+    margin: 30px auto;
+    width: 700px;
+    p,
+    a {
+        display: table-cell;
+        margin: 0;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        vertical-align: middle;
+    }
+    a {
+        background-color: $color-red;
+        color: #FFF !important;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
+
 @media screen and (min-width: 400px) {
     .home .site-header #header-widget-2 {
         margin-top: 7em;
@@ -112,7 +168,7 @@
         padding-top: 8.5em;
     }
     // iPhone 5 landscape
-    .home #header-widgets #header-widget-2 #custom_html-4 {
+    #header-widgets #header-widget-2 #custom_html-4 {
         display: inline-block;
         width: auto;
     }
@@ -202,28 +258,6 @@
     }
 }
 
-.cta-button {
-    border: 1px solid $color-red;
-    display: table;
-    margin: 30px auto;
-    width: 700px;
-    p,
-    a {
-        display: table-cell;
-        margin: 0;
-        padding: 10px 20px;
-        font-size: 1.2em;
-        vertical-align: middle;
-    }
-    a {
-        background-color: $color-red;
-        color: #FFF !important;
-        font-size: 1.6em;
-        text-transform: uppercase;
-        text-align: center;
-    }
-}
-
 @media only screen and (max-width: 767px) {
     .cta-button {
         text-align: center;
@@ -231,40 +265,6 @@
         p,
         a {
             display: block;
-        }
-    }
-}
-
-
-/* HEADER WIDGETS
----------------------------------------*/
-
-#header-widgets {
-    padding-bottom: 0;
-    text-align: center;
-    @media screen and (min-width: 1024px) {
-        padding-bottom: 2.5em;
-    }
-    @media screen and (min-width: 1600px) {}
-    @media screen and (min-width: 1920px) {}
-    .widget {
-        text-align: center;
-    }
-    .widget_media_image {
-        display: none;
-    }
-    #header-widget-2 {
-        #custom_html-4 {
-            background-color: #00924b;
-            color: #fff;
-            margin: auto;
-            padding: 10px 20px;
-            position: relative;
-            width: 80%;
-            transform: skew(-20deg);
-        }
-        .textwidget {
-            transform: skew(20deg);
         }
     }
 }

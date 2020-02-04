@@ -526,6 +526,48 @@ select {
   text-align: center;
   font-size: 1em; }
 
+/* HEADER WIDGETS
+---------------------------------------*/
+#header-widgets {
+  padding-bottom: 0;
+  text-align: center; }
+  @media screen and (min-width: 1024px) {
+    #header-widgets {
+      padding-bottom: 2.5em; } }
+  #header-widgets .widget {
+    text-align: center; }
+  #header-widgets .widget_media_image {
+    display: none; }
+  #header-widgets #header-widget-2 #custom_html-4 {
+    background-color: #00924b;
+    color: #fff;
+    margin: auto;
+    padding: 10px 20px;
+    position: relative;
+    width: 80%;
+    transform: skew(-20deg); }
+  #header-widgets #header-widget-2 .textwidget {
+    transform: skew(20deg); }
+
+.cta-button {
+  border: 1px solid #E63331;
+  display: table;
+  margin: 30px auto;
+  width: 700px; }
+  .cta-button p,
+  .cta-button a {
+    display: table-cell;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    vertical-align: middle; }
+  .cta-button a {
+    background-color: #E63331;
+    color: #FFF !important;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-align: center; }
+
 @media screen and (min-width: 400px) {
   .home .site-header #header-widget-2 {
     margin-top: 7em; } }
@@ -533,7 +575,7 @@ select {
 @media screen and (min-width: 568px) {
   .site-header .custom-header .site-branding {
     padding-top: 8.5em; }
-  .home #header-widgets #header-widget-2 #custom_html-4 {
+  #header-widgets #header-widget-2 #custom_html-4 {
     display: inline-block;
     width: auto; } }
 
@@ -582,25 +624,6 @@ select {
   .site-header .custom-header .site-branding {
     padding-top: 5em; } }
 
-.cta-button {
-  border: 1px solid #E63331;
-  display: table;
-  margin: 30px auto;
-  width: 700px; }
-  .cta-button p,
-  .cta-button a {
-    display: table-cell;
-    margin: 0;
-    padding: 10px 20px;
-    font-size: 1.2em;
-    vertical-align: middle; }
-  .cta-button a {
-    background-color: #E63331;
-    color: #FFF !important;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    text-align: center; }
-
 @media only screen and (max-width: 767px) {
   .cta-button {
     text-align: center;
@@ -608,29 +631,6 @@ select {
     .cta-button p,
     .cta-button a {
       display: block; } }
-
-/* HEADER WIDGETS
----------------------------------------*/
-#header-widgets {
-  padding-bottom: 0;
-  text-align: center; }
-  @media screen and (min-width: 1024px) {
-    #header-widgets {
-      padding-bottom: 2.5em; } }
-  #header-widgets .widget {
-    text-align: center; }
-  #header-widgets .widget_media_image {
-    display: none; }
-  #header-widgets #header-widget-2 #custom_html-4 {
-    background-color: #00924b;
-    color: #fff;
-    margin: auto;
-    padding: 10px 20px;
-    position: relative;
-    width: 80%;
-    transform: skew(-20deg); }
-  #header-widgets #header-widget-2 .textwidget {
-    transform: skew(20deg); }
 
 /* NAVIGATION
 ---------------------------------------*/
