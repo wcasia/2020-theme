@@ -2020,7 +2020,8 @@ h2.wordcamp-post-heading {
 	 * WCASIA
 	 **/
   /* CATEGORIES */ }
-  .wcpt-schedule th, .wcpt-schedule td {
+  .wcpt-schedule th,
+  .wcpt-schedule td {
     padding: 1rem 1.5rem; }
   .wcpt-schedule th {
     text-align: center;
@@ -2177,6 +2178,29 @@ h2.wordcamp-post-heading {
 
 .wcb-favourite-session a.wcpt-session-title {
   color: #0D5ABC; }
+
+.wcpt-schedule .wcb-session-category-design-alt:after,
+.wcpt-schedule .wcb-session-category-design-alt:before,
+.wcpt-schedule .wcb-session-category-panel-discussion:after,
+.wcpt-schedule .wcb-session-category-panel-discussion:before,
+.wcpt-schedule .wcb-session-category-development:after,
+.wcpt-schedule .wcb-session-category-development:before,
+.wcpt-schedule .wcb-session-category-community:after,
+.wcpt-schedule .wcb-session-category-community:before,
+.wcpt-schedule .wcb-session-category-thai-talks:after,
+.wcpt-schedule .wcb-session-category-thai-talks:before {
+  display: inline-block;
+  padding: .0625rem .375rem;
+  bottom: 1rem;
+  font-size: .7em;
+  line-height: 1.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.9);
+  border-radius: .1875rem;
+  background: #fff;
+  margin-bottom: 5px;
+  letter-spacing: 1px; }
 
 @media only screen and (max-width: 700px) {
   .wcpt-schedule {
