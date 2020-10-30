@@ -2301,3 +2301,21 @@ h3.org-group:after {
 .tggr-timestamp {
   font-size: .875rem;
 }
+.site-footer input[type="text"] {
+  float: left;
+  background-color: transparent !important;
+  border: 1px solid #fff;
+  color: #fff !important;
+  width: 60% !important;
+  height: 40px;
+  box-shadow: none;
+}
+.site-footer input[type="text"]::-webkit-input-placeholder {
+  color: #fff;
+}
+.site-footer input[type="text"]:-ms-input-placeholder {
+  color: #fff;
+}
+.site-footer input[type="text"]::placeholder {
+  color: #fff;
+}
